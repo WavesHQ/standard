@@ -20,6 +20,6 @@ A default renovate configuration file is provided on this package.
 
 ```json
 {
-  "extends": ["github:waveshq/renovate-config"]
+  "extends": ["github:waveshq/standard//renovate-config"]
 }
 ```
