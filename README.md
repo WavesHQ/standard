@@ -13,3 +13,13 @@ with the same version tag.
 | ---------------------------- | ----------- | ---------------------------------------------------------------------------------- |
 | @waveshq/standard-web        | Boilerplate | Boilerplate for easier scaffolding of web projects. (Next.js + React + TypeScript) |
 | @waveshq/standard-web-linter | Linting     | Standardized eslint and prettier config for Web based on Next.js rules.            |
+
+## Renovate
+
+A default renovate configuration file is provided on this package.
+
+```json
+{
+  "extends": ["github:waveshq/renovate-config"]
+}
+```
