@@ -9,6 +9,7 @@ Inspired by [Birthday Research's Sticky](https://github.com/BirthdayResearch/sti
 All packages follow the same format `@waveshq/standard-(platform)-*`. All dependencies are published
 with the same version tag.
 
-| Package                      | Type    | Description                                                             |
-| ---------------------------- | ------- | ----------------------------------------------------------------------- |
-| @waveshq/standard-web-linter | Linting | Standardized eslint and prettier config for Web based on Next.js rules. |
+| Package                      | Type        | Description                                                                        |
+|------------------------------|-------------|------------------------------------------------------------------------------------|
+| @waveshq/standard-web        | Boilerplate | Boilerplate for easier scaffolding of web projects. (Next.js + React + TypeScript) |
+| @waveshq/standard-web-linter | Linting     | Standardized eslint and prettier config for Web based on Next.js rules.            |
