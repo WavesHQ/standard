@@ -4,11 +4,11 @@ importers:
 
   .:
     specifiers:
-      '@birthdayresearch/sticky-prettier': ^0.3.0
+      '@birthdayresearch/sticky-prettier': ^0.3.1
       '@birthdayresearch/sticky-turbo': ^0.3.1
       '@waveshq/standard-web-linter': workspace:*
     devDependencies:
-      '@birthdayresearch/sticky-prettier': 0.3.0
+      '@birthdayresearch/sticky-prettier': 0.3.1
       '@birthdayresearch/sticky-turbo': 0.3.1
       '@waveshq/standard-web-linter': link:packages/standard-web-linter
 
@@ -67,8 +67,8 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@birthdayresearch/sticky-prettier/0.3.0:
-    resolution: {integrity: sha512-Qv3sC1x1F1dPfg9B/U87ZV/5tp1ntR08j9wvXs5lJWPFY7nvHonT2DBUTnvWuP+fP1Q1bxszQeJpXRZ2i2kraA==}
+  /@birthdayresearch/sticky-prettier/0.3.1:
+    resolution: {integrity: sha512-zLGQG+sguIO8Ncf5JEGMwXPAEmEWUOP6KrEImO86qm9I0t6Zg9QBYfYBn+Eek1sa0leOCelt9vWNr035fNMSmQ==}
     dependencies:
       husky: 8.0.2
       lint-staged: 13.1.0
