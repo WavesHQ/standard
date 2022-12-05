@@ -16,10 +16,10 @@ with the same version tag.
 
 ## Renovate
 
-A default renovate configuration file is provided on this package.
+Renovate configuration files are provided on this package. Select depending on which platform you need. 
 
 ```json
 {
-  "extends": ["github:waveshq/standard//renovate-config"]
+  "extends": ["github>waveshq/standard//renovate-config/web"]
 }
 ```
