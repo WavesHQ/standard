@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "helpers:pinGitHubActionDigests", ":semanticCommitTypeAll(bump)"],
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": false,
+  "major": {
+    "dependencyDashboardApproval": false
+  },
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["node", "@types/node", "npm", "pnpm", "yarn"],
+      "groupName": "engines",
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackagePatterns": ["jest", "wait-for-expect"],
+      "groupName": "jest"
+    },
+    {
+      "matchPackagePatterns": ["^@birthdayresearch/contented"],
+      "groupName": "@birthdayresearch/contented"
+    }
+  ]
+}

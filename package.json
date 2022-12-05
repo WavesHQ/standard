@@ -1,0 +1,27 @@
+{
+  "name": "@waveshq/standard",
+  "version": "0.0.0",
+  "private": true,
+  "files": [],
+  "scripts": {
+    "prepare": "husky install",
+    "write": "turbo run write",
+    "clean": "turbo run clean",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint -- --fix",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@birthdayresearch/sticky-prettier": "^0.3.0",
+    "@waveshq/standard-web-linter": "workspace:*"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  },
+  "prettier": "@birthdayresearch/sticky-prettier",
+  "engines": {
+    "node": "^16.0.0",
+    "pnpm": ">=7.13.0"
+  }
+}
