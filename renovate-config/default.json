@@ -1,0 +1,47 @@
+{
+  "description": "Default renovate settings",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "helpers:pinGitHubActionDigests",
+    ":semanticCommitTypeAll(bump)"
+  ],
+  "rebaseWhen": "behind-base-branch",
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": false,
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchPackageNames": ["node", "npm", "pnpm", "yarn", "@types/node"],
+      "groupName": "engines",
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["^defichain$", "^@defichain/", "^jellyfishsdk$"],
+      "groupName": "defichain"
+    },
+    {
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackagePatterns": ["jest"],
+      "groupName": "jest"
+    },
+    {
+      "matchPackagePatterns": ["^@birthdayresearch/contented"],
+      "groupName": "@birthdayresearch/contented"
+    },
+    {
+      "matchPackagePatterns": ["^@birthdayresearch/sticky-"],
+      "groupName": "@birthdayresearch/sticky"
+    },
+    {
+      "matchPackagePatterns": ["^@waveshq/standard-"],
+      "groupName": "@waveshq/standard"
+    }
+  ]
+}
