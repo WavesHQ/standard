@@ -9,8 +9,7 @@ Standard linter for web applications. This module also installs `prettier`, `esl
 Lint rules are extended from these packages
 
 | Package              | Description                                        |
-|----------------------|----------------------------------------------------|
+| -------------------- | -------------------------------------------------- |
 | next/core-web-vitals | Uses recommended rules from Next.js.               |
 | airbnb               | Rules defined by airbnb. Uses TypeScript.          |
 | prettier             | Rules defined by prettier to have same code styles |
-
