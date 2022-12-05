@@ -14,7 +14,8 @@
   },
   "devDependencies": {
     "@birthdayresearch/sticky-prettier": "^0.3.0",
-    "@waveshq/standard-web-linter": "workspace:*"
+    "@waveshq/standard-web-linter": "workspace:*",
+    "@birthdayresearch/sticky-turbo": "^0.3.0"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
