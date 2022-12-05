@@ -18,6 +18,7 @@ module.exports = {
     'no-undef': 'warn',
     'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',
+    'import/no-extraneous-dependencies': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
