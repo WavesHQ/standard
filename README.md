@@ -16,7 +16,7 @@ with the same version tag.
 
 ## Renovate
 
-Renovate configuration files are provided on this package. Select depending on which platform you need. 
+Renovate configuration files are provided on this package. Select depending on which platform you need.
 
 ```json
 {
