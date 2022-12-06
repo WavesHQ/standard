@@ -16,10 +16,7 @@
       "enabled": false
     },
     {
-      "matchPackagePatterns": [
-        "^.*defichain.*$",
-        "^.*jellyfishsdk.*$"
-      ],
+      "matchPackagePatterns": ["^.*defichain.*$", "^.*jellyfishsdk.*$"],
       "groupName": "defichain"
     },
     {
