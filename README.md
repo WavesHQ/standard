@@ -26,6 +26,12 @@ with the same version tag.
 | @waveshq/standard-desktop        | Boilerplate | Boilerplate for easier scaffolding of desktop projects. (Tauri + Vite + React + TypeScript) |
 | @waveshq/standard-desktop-linter | Linting     | Standardized eslint and prettier config for Desktop.                                        |
 
+### JellyfishSDK
+
+| Package                                  | Type    | Description                                                                      |
+| ---------------------------------------- | ------- | -------------------------------------------------------------------------------- |
+| @waveshq/standard-defichain-jellyfishsdk | Library | Collection of JellyfishSDK libraries that can be used to develop DeFiChain apps. |
+
 ### Renovate
 
 Renovate configuration files are provided on this package. Select depending on which platform you need.
