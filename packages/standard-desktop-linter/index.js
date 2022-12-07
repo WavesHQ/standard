@@ -6,6 +6,7 @@ module.exports = {
   plugins: ['react', 'react-hooks', 'prettier'],
   ignorePatterns: ['/*.config.js', '*.json', 'jest.setup.js'],
   rules: {
+    'import/no-extraneous-dependencies': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/require-default-props': 'off',
     'import/prefer-default-export': 'off',
