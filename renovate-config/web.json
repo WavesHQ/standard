@@ -1,11 +1,7 @@
 {
   "description": "Default renovate settings",
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    "helpers:pinGitHubActionDigests",
-    ":semanticCommitTypeAll(bump)"
-  ],
+  "extends": ["config:base", "helpers:pinGitHubActionDigests", ":semanticCommitTypeAll(bump)"],
   "rebaseWhen": "behind-base-branch",
   "dependencyDashboard": true,
   "dependencyDashboardAutoclose": false,
@@ -15,51 +11,32 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "matchPackageNames": [
-        "node",
-        "npm",
-        "pnpm",
-        "yarn",
-        "@types/node"
-      ],
+      "matchPackageNames": ["node", "npm", "pnpm", "yarn", "@types/node"],
       "groupName": "engines",
       "enabled": false
     },
     {
-      "matchPackagePatterns": [
-        "^.*defichain.*$",
-        "^.*jellyfishsdk.*$"
-      ],
+      "matchPackagePatterns": ["^.*defichain.*$", "^.*jellyfishsdk.*$"],
       "groupName": "defichain"
     },
     {
-      "matchPackagePatterns": [
-        "eslint"
-      ],
+      "matchPackagePatterns": ["eslint"],
       "groupName": "eslint"
     },
     {
-      "matchPackagePatterns": [
-        "jest"
-      ],
+      "matchPackagePatterns": ["jest"],
       "groupName": "jest"
     },
     {
-      "matchPackagePatterns": [
-        "^@birthdayresearch/contented"
-      ],
+      "matchPackagePatterns": ["^@birthdayresearch/contented"],
       "groupName": "@birthdayresearch/contented"
     },
     {
-      "matchPackagePatterns": [
-        "^@birthdayresearch/sticky-"
-      ],
+      "matchPackagePatterns": ["^@birthdayresearch/sticky-"],
       "groupName": "@birthdayresearch/sticky"
     },
     {
-      "matchPackagePatterns": [
-        "^@waveshq/standard-"
-      ],
+      "matchPackagePatterns": ["^@waveshq/standard-"],
       "groupName": "@waveshq/standard"
     }
   ]
