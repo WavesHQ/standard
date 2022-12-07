@@ -13,14 +13,13 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@birthdayresearch/sticky-prettier": "^0.3.1",
     "@waveshq/standard-web-linter": "workspace:*",
     "@birthdayresearch/sticky-turbo": "^0.3.1"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
   },
-  "prettier": "@birthdayresearch/sticky-prettier",
+  "prettier": "@waveshq/standard-web-linter",
   "engines": {
     "node": "^16.0.0",
     "pnpm": ">=7.13.0"

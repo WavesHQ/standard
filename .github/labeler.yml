@@ -39,43 +39,43 @@ labels:
   - label: area/workflow
     sync: true
     matcher:
-      files: '.github/**'
+      files: ".github/**"
 
   - label: area/sticky-jest
     sync: true
     matcher:
-      files: 'packages/sticky-jest/**'
+      files: "packages/sticky-jest/**"
 
   - label: area/sticky-prettier
     sync: true
     matcher:
-      files: 'packages/sticky-prettier/**'
+      files: "packages/sticky-prettier/**"
 
   - label: area/sticky-turbo
     sync: true
     matcher:
-      files: 'packages/sticky-turbo/**'
+      files: "packages/sticky-turbo/**"
 
   - label: area/sticky-turbo-jest
     sync: true
     matcher:
-      files: 'packages/sticky-turbo-jest/**'
+      files: "packages/sticky-turbo-jest/**"
 
   - label: area/sticky-typescript
     sync: true
     matcher:
-      files: 'packages/sticky-typescript/**'
+      files: "packages/sticky-typescript/**"
 
   - label: area/eslint-config
     sync: true
     matcher:
-      files: 'packages/eslint-config/**'
+      files: "packages/eslint-config/**"
 
 checks:
-  - context: 'Semantic Pull Request'
+  - context: "Semantic Pull Request"
     description:
       success: Ready for review & merge.
-      failure: 'Missing semantic title or label for merge [kind(directory): title]'
+      failure: "Missing semantic title or label for merge [kind(directory): title]"
     labels:
       any:
         - kind/feature
