@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      '@birthdayresearch/sticky-prettier': ^0.3.1
-      '@birthdayresearch/sticky-turbo': ^0.3.1
+      '@birthdayresearch/sticky-prettier': ^0.3.2
+      '@birthdayresearch/sticky-turbo': ^0.3.2
       '@waveshq/standard-web-linter': workspace:*
     devDependencies:
-      '@birthdayresearch/sticky-prettier': 0.3.1
-      '@birthdayresearch/sticky-turbo': 0.3.1
+      '@birthdayresearch/sticky-prettier': 0.3.2
+      '@birthdayresearch/sticky-turbo': 0.3.2
       '@waveshq/standard-web-linter': link:packages/standard-web-linter
 
   packages/standard-defichain-jellyfishsdk:
@@ -442,8 +442,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@birthdayresearch/sticky-prettier/0.3.1:
-    resolution: {integrity: sha512-zLGQG+sguIO8Ncf5JEGMwXPAEmEWUOP6KrEImO86qm9I0t6Zg9QBYfYBn+Eek1sa0leOCelt9vWNr035fNMSmQ==}
+  /@birthdayresearch/sticky-prettier/0.3.2:
+    resolution: {integrity: sha512-xvAHpeVoA3VE+OcCeBzEyXslSvelIU31wYrT3Xp2kzySUK0LHcd07VfyZqcykK0kyAr/8jX9retjYbthSNqXUA==}
     dependencies:
       husky: 8.0.2
       lint-staged: 13.1.0
@@ -454,8 +454,8 @@ packages:
       - supports-color
     dev: true
 
-  /@birthdayresearch/sticky-turbo/0.3.1:
-    resolution: {integrity: sha512-hrYfK+A6fu81+ANUsh2O1TLQpRuKRllGd0N5A4oUIKfb7DwQ76P1HGd4cuFTQ7t36M1PvW5D3tAmXfzHOG7iHA==}
+  /@birthdayresearch/sticky-turbo/0.3.2:
+    resolution: {integrity: sha512-9YM2AMXRIkHkav3rPOF4PG4aNJMmp6/ZdL38/SZe4MPeEypsnBDyx+pprFm6froW5joy0JrRJKELX9Qhj0xknw==}
     dependencies:
       turbo: 1.6.3
     dev: true
