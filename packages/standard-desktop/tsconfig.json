@@ -27,7 +27,9 @@
       "@translation": ["i18n/useTranslation"],
       "@nonWallet/*": ["non-wallet/*"],
       "@assets/*": ["assets/*"],
-      "@store/*": ["store/*"]
+      "@store/*": ["store/*"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"]
     }
   },
   "include": ["src"],
