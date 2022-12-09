@@ -21,11 +21,12 @@
     "paths": {
       "@api/*": ["api/*"],
       "@contexts/*": ["api/contexts/*"],
-      "@wallet/*": ["api/wallet/*"],
+      "@walletContext/*": ["api/wallet/*"],
       "@components/*": ["components/*"],
       "@layouts/*": ["layouts/*"],
       "@translation": ["i18n/useTranslation"],
       "@nonWallet/*": ["non-wallet/*"],
+      "@wallet/*": ["wallet/*"],
       "@assets/*": ["assets/*"],
       "@store/*": ["store/*"],
       "@hooks/*": ["hooks/*"],
