@@ -32,6 +32,12 @@ with the same version tag.
 | ---------------------------------------- | ------- | -------------------------------------------------------------------------------- |
 | @waveshq/standard-defichain-jellyfishsdk | Library | Collection of JellyfishSDK libraries that can be used to develop DeFiChain apps. |
 
+### Prettier
+
+| Package                    | Type   | Description                                              |
+| -------------------------- | ------ | -------------------------------------------------------- |
+| @waveshq/standard-prettier | Linter | Standardized eslint and prettier config for TS projects. |
+
 ### Renovate
 
 Renovate configuration files are provided on this package. Select depending on which platform you need.
