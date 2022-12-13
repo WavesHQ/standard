@@ -9,7 +9,7 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  plugins: ["react", "react-hooks", "prettier"],
+  plugins: ["simple-import-sort", "react", "react-hooks", "prettier"],
   ignorePatterns: ["/*.config.js", "*.json", "jest.setup.js"],
   rules: {
     "import/no-extraneous-dependencies": "off",

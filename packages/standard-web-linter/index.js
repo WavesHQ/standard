@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ["next/core-web-vitals", "airbnb", "airbnb-typescript", "prettier"],
+  extends: [
+    "simple-import-sort",
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb-typescript",
+    "prettier",
+  ],
   parserOptions: {
     project: "./tsconfig.json",
   },
