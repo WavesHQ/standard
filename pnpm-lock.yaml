@@ -6,11 +6,11 @@ importers:
     specifiers:
       '@birthdayresearch/sticky-prettier': ^0.3.2
       '@birthdayresearch/sticky-turbo': ^0.3.2
-      '@waveshq/standard-web-linter': workspace:*
+      '@waveshq/standard-prettier': workspace:*
     devDependencies:
       '@birthdayresearch/sticky-prettier': 0.3.2
       '@birthdayresearch/sticky-turbo': 0.3.2
-      '@waveshq/standard-web-linter': link:packages/standard-web-linter
+      '@waveshq/standard-prettier': link:packages/standard-prettier
 
   packages/standard-defichain-jellyfishsdk:
     specifiers:
@@ -93,6 +93,28 @@ importers:
       eslint-plugin-prettier: 4.2.1_5dgjrgoi64tgrv3zzn3walur3u
       eslint-plugin-react: 7.31.11_eslint@8.29.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.29.0
+      husky: 8.0.2
+      lint-staged: 13.1.0
+      prettier: 2.8.1
+      typescript: 4.9.4
+
+  packages/standard-prettier:
+    specifiers:
+      eslint: ^8.29.0
+      eslint-config-airbnb: ^19.0.4
+      eslint-config-airbnb-typescript: ^17.0.0
+      eslint-config-prettier: ^8.5.0
+      eslint-plugin-prettier: ^4.2.1
+      husky: ^8.0.2
+      lint-staged: ^13.1.0
+      prettier: ^2.8.1
+      typescript: 4.9.4
+    dependencies:
+      eslint: 8.29.0
+      eslint-config-airbnb: 19.0.4_u6r7wmyqgznou2plc6ye67x2ku
+      eslint-config-airbnb-typescript: 17.0.0_hysxkowscoc2l6lrru7zxytwqi
+      eslint-config-prettier: 8.5.0_eslint@8.29.0
+      eslint-plugin-prettier: 4.2.1_5dgjrgoi64tgrv3zzn3walur3u
       husky: 8.0.2
       lint-staged: 13.1.0
       prettier: 2.8.1
@@ -413,7 +435,7 @@ packages:
       husky: 8.0.2
       lint-staged: 13.1.0
       prettier: 2.8.1
-      prettier-plugin-tailwindcss: 0.2.0_prettier@2.8.1
+      prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
     transitivePeerDependencies:
       - enquirer
       - supports-color
@@ -4082,8 +4104,8 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-tailwindcss/0.2.0_prettier@2.8.1:
-    resolution: {integrity: sha512-Ruqig/mdWCSpqdq9WK44nrmqM4BFWTzBPhPGwC5NK3coV9eZntEQPB84MGZbjAg0XQU02jVRHXNRPREBzxvM+A==}
+  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.1:
+    resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
