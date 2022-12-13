@@ -78,6 +78,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.31.11
       eslint-plugin-react-hooks: ^4.6.0
+      eslint-plugin-simple-import-sort: ^8.0.0
       husky: ^8.0.2
       lint-staged: ^13.1.0
       prettier: ^2.8.1
@@ -93,6 +94,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_5dgjrgoi64tgrv3zzn3walur3u
       eslint-plugin-react: 7.31.11_eslint@8.29.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.29.0
+      eslint-plugin-simple-import-sort: 8.0.0_eslint@8.29.0
       husky: 8.0.2
       lint-staged: 13.1.0
       prettier: 2.8.1
@@ -105,6 +107,7 @@ importers:
       eslint-config-airbnb-typescript: ^17.0.0
       eslint-config-prettier: ^8.5.0
       eslint-plugin-prettier: ^4.2.1
+      eslint-plugin-simple-import-sort: ^8.0.0
       husky: ^8.0.2
       lint-staged: ^13.1.0
       prettier: ^2.8.1
@@ -115,6 +118,7 @@ importers:
       eslint-config-airbnb-typescript: 17.0.0_hysxkowscoc2l6lrru7zxytwqi
       eslint-config-prettier: 8.5.0_eslint@8.29.0
       eslint-plugin-prettier: 4.2.1_5dgjrgoi64tgrv3zzn3walur3u
+      eslint-plugin-simple-import-sort: 8.0.0_eslint@8.29.0
       husky: 8.0.2
       lint-staged: 13.1.0
       prettier: 2.8.1
@@ -162,6 +166,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.31.11
       eslint-plugin-react-hooks: ^4.6.0
+      eslint-plugin-simple-import-sort: ^8.0.0
       husky: ^8.0.2
       lint-staged: ^13.1.0
       next: 13.0.6
@@ -180,6 +185,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_5dgjrgoi64tgrv3zzn3walur3u
       eslint-plugin-react: 7.31.11_eslint@8.29.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.29.0
+      eslint-plugin-simple-import-sort: 8.0.0_eslint@8.29.0
       husky: 8.0.2
       lint-staged: 13.1.0
       next: 13.0.6_biqbaboplfbrettd7655fr4n2y
@@ -2649,6 +2655,14 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.0
       string.prototype.matchall: 4.0.8
+    dev: false
+
+  /eslint-plugin-simple-import-sort/8.0.0_eslint@8.29.0:
+    resolution: {integrity: sha512-bXgJQ+lqhtQBCuWY/FUWdB27j4+lqcvXv5rUARkzbeWLwea+S5eBZEQrhnO+WgX3ZoJHVj0cn943iyXwByHHQw==}
+    peerDependencies:
+      eslint: '>=5.0.0'
+    dependencies:
+      eslint: 8.29.0
     dev: false
 
   /eslint-scope/5.1.1:
