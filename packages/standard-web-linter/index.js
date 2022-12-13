@@ -1,6 +1,5 @@
 module.exports = {
   extends: [
-    "simple-import-sort",
     "next/core-web-vitals",
     "airbnb",
     "airbnb-typescript",
@@ -9,7 +8,7 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  plugins: ["prettier"],
+  plugins: ["simple-import-sort", "prettier"],
   rules: {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
