@@ -20,10 +20,10 @@
     "baseUrl": "src",
     "paths": {
       "@api/*": ["api/*"],
-      "@contexts/*": ["api/contexts/*"],
+      "@contexts-api/*": ["api/contexts/*"],
       "@wallet-api/*": ["api/wallet/*"],
+      "@contexts/*": ["contexts/*"],
       "@components/*": ["components/*"],
-      "@layouts/*": ["layouts/*"],
       "@translation": ["i18n/useTranslation"],
       "@nonWallet/*": ["non-wallet/*"],
       "@wallet/*": ["wallet/*"],
