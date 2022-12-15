@@ -46,6 +46,10 @@
     {
       "matchPackagePatterns": ["^@waveshq/standard-"],
       "groupName": "@waveshq/standard"
+    },
+    {
+      "matchPackagePatterns": ["^@waveshq/walletkit-"],
+      "groupName": "@waveshq/walletkit"
     }
   ]
 }
