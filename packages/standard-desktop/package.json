@@ -8,7 +8,7 @@
     "@tauri-apps/api": "^1.2.0",
     "@tauri-apps/cli": "^1.2.2",
     "@types/react": "^18.0.26",
-    "@types/react-dom": "18.0.9",
+    "@types/react-dom": "18.0.10",
     "@vitejs/plugin-react": "^3.0.0",
     "@vitejs/plugin-react-swc": "3.0.1",
     "react": "^18.2.0",
