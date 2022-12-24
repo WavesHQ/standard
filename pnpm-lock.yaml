@@ -161,7 +161,7 @@ importers:
       eslint: ^8.30.0
       eslint-config-airbnb: ^19.0.4
       eslint-config-airbnb-typescript: ^17.0.0
-      eslint-config-next: 13.1.0
+      eslint-config-next: 13.1.1
       eslint-config-prettier: ^8.5.0
       eslint-plugin-cypress: ^2.12.1
       eslint-plugin-import: ^2.26.0
@@ -180,7 +180,7 @@ importers:
       eslint: 8.30.0
       eslint-config-airbnb: 19.0.4_j3uyvjk2vb2gkfzhvqukeu5rlq
       eslint-config-airbnb-typescript: 17.0.0_halimn3rvtccqotncu26h2onpu
-      eslint-config-next: 13.1.0_lzzuuodtsqwxnvqeq4g4likcqa
+      eslint-config-next: 13.1.1_lzzuuodtsqwxnvqeq4g4likcqa
       eslint-config-prettier: 8.5.0_eslint@8.30.0
       eslint-plugin-cypress: 2.12.1_eslint@8.30.0
       eslint-plugin-import: 2.26.0_go3ou7itmih6h767muijp2dp3i
@@ -973,8 +973,8 @@ packages:
     resolution: {integrity: sha512-6iNixFzCndH+Bl4FetQzOMjxCJqg8fs0LAlZviig1K6mIjOWH2m2oPcHcOg1Ta5VCe7Bx5KG1Hs+NrWDUkBt9A==}
     dev: false
 
-  /@next/eslint-plugin-next/13.1.0:
-    resolution: {integrity: sha512-LGh0iqcEwxs0HmEK96cXXuhofcOGSUGl8Zms279JW8Zq/6GJkXo87gtRpfJrwD+a77nEIdRaORPM91Us3xW0Qw==}
+  /@next/eslint-plugin-next/13.1.1:
+    resolution: {integrity: sha512-SBrOFS8PC3nQ5aeZmawJkjKkWjwK9RoxvBSv/86nZp0ubdoVQoko8r8htALd9ufp16NhacCdqhu9bzZLDWtALQ==}
     dependencies:
       glob: 7.1.7
     dev: false
@@ -2400,8 +2400,8 @@ packages:
       object.entries: 1.1.6
     dev: false
 
-  /eslint-config-next/13.1.0_lzzuuodtsqwxnvqeq4g4likcqa:
-    resolution: {integrity: sha512-UdZm8GTR8PWys1dw+gJY+aLR/etkbTTsrRxiQ57nxqAE4Fw6PGZ2prLjqV6IhNkFve3c8ZgbCrUolfGad2mryA==}
+  /eslint-config-next/13.1.1_lzzuuodtsqwxnvqeq4g4likcqa:
+    resolution: {integrity: sha512-/5S2XGWlGaiqrRhzpn51ux5JUSLwx8PVK2keLi5xk7QmhfYB8PqE6R6SlVw6hgnf/VexvUXSrlNJ/su00NhtHQ==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -2409,7 +2409,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 13.1.0
+      '@next/eslint-plugin-next': 13.1.1
       '@rushstack/eslint-patch': 1.2.0
       '@typescript-eslint/parser': 5.45.1_lzzuuodtsqwxnvqeq4g4likcqa
       eslint: 8.30.0
