@@ -81,7 +81,7 @@ importers:
       eslint-plugin-simple-import-sort: ^8.0.0
       husky: ^8.0.3
       lint-staged: ^13.1.0
-      prettier: ^2.8.1
+      prettier: ^2.8.2
       typescript: 4.9.4
     dependencies:
       eslint: 8.31.0
@@ -91,13 +91,13 @@ importers:
       eslint-plugin-cypress: 2.12.1_eslint@8.31.0
       eslint-plugin-import: 2.26.0_bjseeca2oeblntwzh2q6n64kfy
       eslint-plugin-node: 11.1.0_eslint@8.31.0
-      eslint-plugin-prettier: 4.2.1_32m5uc2milwdw3tnkcq5del26y
+      eslint-plugin-prettier: 4.2.1_iu5s7nk6dw7o3tajefwfiqfmge
       eslint-plugin-react: 7.31.11_eslint@8.31.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.31.0
       eslint-plugin-simple-import-sort: 8.0.0_eslint@8.31.0
       husky: 8.0.3
       lint-staged: 13.1.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       typescript: 4.9.4
 
   packages/standard-prettier:
@@ -110,18 +110,18 @@ importers:
       eslint-plugin-simple-import-sort: ^8.0.0
       husky: ^8.0.3
       lint-staged: ^13.1.0
-      prettier: ^2.8.1
+      prettier: ^2.8.2
       typescript: 4.9.4
     dependencies:
       eslint: 8.31.0
       eslint-config-airbnb: 19.0.4_kdrd7zxcgo7evu26hvr6zfy33i
       eslint-config-airbnb-typescript: 17.0.0_tdyeyibyhchjwt7t2j3w5tkt4u
       eslint-config-prettier: 8.6.0_eslint@8.31.0
-      eslint-plugin-prettier: 4.2.1_32m5uc2milwdw3tnkcq5del26y
+      eslint-plugin-prettier: 4.2.1_iu5s7nk6dw7o3tajefwfiqfmge
       eslint-plugin-simple-import-sort: 8.0.0_eslint@8.31.0
       husky: 8.0.3
       lint-staged: 13.1.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       typescript: 4.9.4
 
   packages/standard-web:
@@ -174,7 +174,7 @@ importers:
       husky: ^8.0.3
       lint-staged: ^13.1.0
       next: 13.1.1
-      prettier: ^2.8.1
+      prettier: ^2.8.2
       typescript: 4.9.4
     dependencies:
       eslint: 8.31.0
@@ -186,14 +186,14 @@ importers:
       eslint-plugin-import: 2.26.0_bjseeca2oeblntwzh2q6n64kfy
       eslint-plugin-jsx-a11y: 6.6.1_eslint@8.31.0
       eslint-plugin-node: 11.1.0_eslint@8.31.0
-      eslint-plugin-prettier: 4.2.1_32m5uc2milwdw3tnkcq5del26y
+      eslint-plugin-prettier: 4.2.1_iu5s7nk6dw7o3tajefwfiqfmge
       eslint-plugin-react: 7.31.11_eslint@8.31.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.31.0
       eslint-plugin-simple-import-sort: 8.0.0_eslint@8.31.0
       husky: 8.0.3
       lint-staged: 13.1.0
       next: 13.1.1_biqbaboplfbrettd7655fr4n2y
-      prettier: 2.8.1
+      prettier: 2.8.2
       typescript: 4.9.4
 
 packages:
@@ -445,8 +445,8 @@ packages:
     dependencies:
       husky: 8.0.3
       lint-staged: 13.1.0
-      prettier: 2.8.1
-      prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
+      prettier: 2.8.2
+      prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.2
     transitivePeerDependencies:
       - enquirer
       - supports-color
@@ -2642,7 +2642,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_32m5uc2milwdw3tnkcq5del26y:
+  /eslint-plugin-prettier/4.2.1_iu5s7nk6dw7o3tajefwfiqfmge:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2655,7 +2655,7 @@ packages:
     dependencies:
       eslint: 8.31.0
       eslint-config-prettier: 8.6.0_eslint@8.31.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -4181,17 +4181,17 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.1:
+  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.2:
     resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
     dependencies:
-      prettier: 2.8.1
+      prettier: 2.8.2
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
 
