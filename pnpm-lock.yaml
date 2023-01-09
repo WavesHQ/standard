@@ -50,7 +50,7 @@ importers:
       '@vitejs/plugin-react-swc': 3.0.1
       react: ^18.2.0
       react-dom: ^18.2.0
-      react-router-dom: ^6.6.1
+      react-router-dom: ^6.6.2
       typescript: 4.9.4
       vite: ^4.0.4
     dependencies:
@@ -62,7 +62,7 @@ importers:
       '@vitejs/plugin-react-swc': 3.0.1_vite@4.0.4
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-router-dom: 6.6.1_biqbaboplfbrettd7655fr4n2y
+      react-router-dom: 6.6.2_biqbaboplfbrettd7655fr4n2y
       typescript: 4.9.4
       vite: 4.0.4
 
@@ -4317,8 +4317,8 @@ packages:
       shallow-equal: 1.2.1
     dev: false
 
-  /react-router-dom/6.6.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-u+8BKUtelStKbZD5UcY0NY90WOzktrkJJhyhNg7L0APn9t1qJNLowzrM9CHdpB6+rcPt6qQrlkIXsTvhuXP68g==}
+  /react-router-dom/6.6.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-6SCDXxRQqW5af8ImOqKza7icmQ47/EMbz572uFjzvcArg3lZ+04PxSPp8qGs+p2Y+q+b+S/AjXv8m8dyLndIIA==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
@@ -4327,11 +4327,11 @@ packages:
       '@remix-run/router': 1.2.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-router: 6.6.1_react@18.2.0
+      react-router: 6.6.2_react@18.2.0
     dev: false
 
-  /react-router/6.6.1_react@18.2.0:
-    resolution: {integrity: sha512-YkvlYRusnI/IN0kDtosUCgxqHeulN5je+ew8W+iA1VvFhf86kA+JEI/X/8NqYcr11hCDDp906S+SGMpBheNeYQ==}
+  /react-router/6.6.2_react@18.2.0:
+    resolution: {integrity: sha512-uJPG55Pek3orClbURDvfljhqFvMgJRo59Pktywkk8hUUkTY2aRfza8Yhl/vZQXs+TNQyr6tu+uqz/fLxPICOGQ==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
