@@ -161,7 +161,7 @@ importers:
       eslint: ^8.31.0
       eslint-config-airbnb: ^19.0.4
       eslint-config-airbnb-typescript: ^17.0.0
-      eslint-config-next: 13.1.1
+      eslint-config-next: 13.1.2
       eslint-config-prettier: ^8.6.0
       eslint-plugin-cypress: ^2.12.1
       eslint-plugin-import: ^2.27.4
@@ -180,7 +180,7 @@ importers:
       eslint: 8.31.0
       eslint-config-airbnb: 19.0.4_clj2sc35kiuw2ndh55gxznyd44
       eslint-config-airbnb-typescript: 17.0.0_f3sntf27mceu4jrxzupm6zew6m
-      eslint-config-next: 13.1.1_iukboom6ndih5an6iafl45j2fe
+      eslint-config-next: 13.1.2_iukboom6ndih5an6iafl45j2fe
       eslint-config-prettier: 8.6.0_eslint@8.31.0
       eslint-plugin-cypress: 2.12.1_eslint@8.31.0
       eslint-plugin-import: 2.27.4_bjseeca2oeblntwzh2q6n64kfy
@@ -973,8 +973,8 @@ packages:
     resolution: {integrity: sha512-PpT4UZIX66VMTqXt4HKEJ+/PwbS+tWmmhZlazaws1a+dbUA5pPdjntQ46Jvj616i3ZKN9doS9LHx3y50RLjAWg==}
     dev: false
 
-  /@next/eslint-plugin-next/13.1.1:
-    resolution: {integrity: sha512-SBrOFS8PC3nQ5aeZmawJkjKkWjwK9RoxvBSv/86nZp0ubdoVQoko8r8htALd9ufp16NhacCdqhu9bzZLDWtALQ==}
+  /@next/eslint-plugin-next/13.1.2:
+    resolution: {integrity: sha512-WGaNVvIYphdriesP6r7jq/8l7u38tzotnVQuxc1RYKLqYYApSsrebti3OCPoT3Gx0pw2smPIFHH98RzcsgW5GQ==}
     dependencies:
       glob: 7.1.7
     dev: false
@@ -2424,8 +2424,8 @@ packages:
       object.entries: 1.1.6
     dev: false
 
-  /eslint-config-next/13.1.1_iukboom6ndih5an6iafl45j2fe:
-    resolution: {integrity: sha512-/5S2XGWlGaiqrRhzpn51ux5JUSLwx8PVK2keLi5xk7QmhfYB8PqE6R6SlVw6hgnf/VexvUXSrlNJ/su00NhtHQ==}
+  /eslint-config-next/13.1.2_iukboom6ndih5an6iafl45j2fe:
+    resolution: {integrity: sha512-zdRAQOr8v69ZwJRtBrGqAqm160ONqKxU/pV1FB1KlgfyqveGsLZmlQ7l31otwtw763901J7xdiTVkj2y3YxXZA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -2433,11 +2433,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 13.1.1
+      '@next/eslint-plugin-next': 13.1.2
       '@rushstack/eslint-patch': 1.2.0
       '@typescript-eslint/parser': 5.45.1_iukboom6ndih5an6iafl45j2fe
       eslint: 8.31.0
-      eslint-import-resolver-node: 0.3.6
+      eslint-import-resolver-node: 0.3.7
       eslint-import-resolver-typescript: 3.5.2_hnftvkj7qg3s6bbigj4pr6djxy
       eslint-plugin-import: 2.27.4_xuxwahg265grp2mzn3v5bxkode
       eslint-plugin-jsx-a11y: 6.7.1_eslint@8.31.0
@@ -2456,15 +2456,6 @@ packages:
       eslint: '>=7.0.0'
     dependencies:
       eslint: 8.31.0
-    dev: false
-
-  /eslint-import-resolver-node/0.3.6:
-    resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
-    dependencies:
-      debug: 3.2.7
-      resolve: 1.22.1
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /eslint-import-resolver-node/0.3.7:
