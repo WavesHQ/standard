@@ -14,35 +14,35 @@ importers:
 
   packages/standard-defichain-jellyfishsdk:
     specifiers:
-      '@defichain/jellyfish-address': ^3.23.2
-      '@defichain/jellyfish-api-core': ^3.23.2
-      '@defichain/jellyfish-network': ^3.23.2
-      '@defichain/jellyfish-testing': ^3.23.2
-      '@defichain/jellyfish-transaction': ^3.23.2
-      '@defichain/jellyfish-transaction-builder': ^3.23.2
-      '@defichain/jellyfish-wallet': ^3.23.2
-      '@defichain/jellyfish-wallet-encrypted': ^3.23.2
-      '@defichain/jellyfish-wallet-mnemonic': ^3.23.2
-      '@defichain/playground-api-client': ^3.23.2
-      '@defichain/testcontainers': ^3.23.2
-      '@defichain/whale-api-client': ^3.23.2
-      '@defichain/whale-api-wallet': ^3.23.2
-      defichain: ^3.23.2
+      '@defichain/jellyfish-address': ^3.24.0
+      '@defichain/jellyfish-api-core': ^3.24.0
+      '@defichain/jellyfish-network': ^3.24.0
+      '@defichain/jellyfish-testing': ^3.24.0
+      '@defichain/jellyfish-transaction': ^3.24.0
+      '@defichain/jellyfish-transaction-builder': ^3.24.0
+      '@defichain/jellyfish-wallet': ^3.24.0
+      '@defichain/jellyfish-wallet-encrypted': ^3.24.0
+      '@defichain/jellyfish-wallet-mnemonic': ^3.24.0
+      '@defichain/playground-api-client': ^3.24.0
+      '@defichain/testcontainers': ^3.24.0
+      '@defichain/whale-api-client': ^3.24.0
+      '@defichain/whale-api-wallet': ^3.24.0
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-address': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-api-core': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-network': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-testing': 3.23.2_4st4dkabvhtmpqqdqxcht65hci
-      '@defichain/jellyfish-transaction': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction-builder': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-wallet': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-wallet-encrypted': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-wallet-mnemonic': 3.23.2_defichain@3.23.2
-      '@defichain/playground-api-client': 3.23.2_defichain@3.23.2
-      '@defichain/testcontainers': 3.23.2_4st4dkabvhtmpqqdqxcht65hci
-      '@defichain/whale-api-client': 3.23.2_defichain@3.23.2
-      '@defichain/whale-api-wallet': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-address': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-api-core': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-network': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-testing': 3.24.0_rqxmzo6j3snh2v4k5rqi47bzaq
+      '@defichain/jellyfish-transaction': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction-builder': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-wallet': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-wallet-encrypted': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-wallet-mnemonic': 3.24.0_defichain@3.24.0
+      '@defichain/playground-api-client': 3.24.0_defichain@3.24.0
+      '@defichain/testcontainers': 3.24.0_rqxmzo6j3snh2v4k5rqi47bzaq
+      '@defichain/whale-api-client': 3.24.0_defichain@3.24.0
+      '@defichain/whale-api-wallet': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
 
   packages/standard-desktop:
     specifiers:
@@ -469,209 +469,209 @@ packages:
     resolution: {integrity: sha512-q/yVUnqckA8Do+EvAfpy7RLdumnBy9ZsducMUtZTvpdbJC7azEf1hGtnYYxm0QfphYxjwggv6XtH64prvS1W+A==}
     dev: false
 
-  /@defichain/jellyfish-address/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-rgJei1pVnX+qVtkQ2x0gdmOIp0Kp6tp28vxolHzS8l8FZAvfmKIBdEHvvdbu/0QyMWz3KY2v99Gv1+9U1EwuTg==}
+  /@defichain/jellyfish-address/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-6y8NbZFBLjE/qPFVYadjOQkMOw1mWv828VwXcWNhL569+SVA1V8vti1OhHI3Ifu5zHg4M5hHD7oG964JIJ1OIw==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-crypto': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-network': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction': 3.23.2_defichain@3.23.2
+      '@defichain/jellyfish-crypto': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-network': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction': 3.24.0_defichain@3.24.0
       bech32: 2.0.0
       bs58: 4.0.1
-      defichain: 3.23.2
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/jellyfish-api-core/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-IMPqJUdExgFiumF7aFSuN6gd5Q4E9sdOsncMGf0IbDCoAd8/tt5mtbKcYjeUQrf98YMycfjo+zcS48VQzy8w3Q==}
+  /@defichain/jellyfish-api-core/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-OmhbFbDiVOvb6YdQmX+dkV6Bfa9jYAoxa873F0qeNRnQPDcMOqkKEHeRjbURdJVoNWrcZWfqZEvbOx6yvP3SqQ==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-json': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-json': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/jellyfish-api-jsonrpc/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-nwuHZIEL1erFAUibX6tN9pxrno6Zdr2gqUy6k7lhUEgwF2jSO3mnSGs1luot8jt2zNvsjJi9L1IUZWLncFVusw==}
+  /@defichain/jellyfish-api-jsonrpc/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-RZvu76D/ei2P1sLzyfj9SLLWt9Yx5kUYykyceerKK+owqZaaeqVtF59LIo470zWvcPQWPjLKBsFkIg32O7E4Tw==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-api-core': 3.23.2_defichain@3.23.2
+      '@defichain/jellyfish-api-core': 3.24.0_defichain@3.24.0
       abort-controller: 3.0.0
       cross-fetch: 3.1.5
-      defichain: 3.23.2
+      defichain: 3.24.0
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/jellyfish-buffer/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-0Clwd/sIvBD+Lu88TN7X9uZefyOn3XlRoovPkoIxEk+g5ZBJAc63enXGi2MwCiwlKHXMrYctm7BbFjGm12gvpQ==}
+  /@defichain/jellyfish-buffer/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-4YHNFn6ivruBuKW5BJ6yM6uT0j5z0X/I2dSOw1JzrJyLczsWKnbw3GfdB0yV/lm+YgtaGIuW6sSY/Y3zwuitwA==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
       bignumber.js: 9.1.1
       bn.js: 5.2.1
-      defichain: 3.23.2
+      defichain: 3.24.0
       smart-buffer: 4.2.0
     dev: false
 
-  /@defichain/jellyfish-crypto/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-qbLT5Hk043TBym24REEzAWOFKg/OihWYIl+SW59vnuma5hZ+nvmdrvi9N9qpjOD1aW2oJ/Nq/aXIWYIXHX3IPw==}
+  /@defichain/jellyfish-crypto/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-/u2ib0BG3axFEAeYUgzCmeyrPzgaSQqYOxzA+kiFm4bdF3aKeWnDJCKVtZ3ZaIElxMPFJXN3uE0RskxUFgQdEg==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
       bech32: 2.0.0
       bip66: 1.1.5
       browserify-aes: 1.2.0
       bs58: 4.0.1
       create-hash: 1.2.0
-      defichain: 3.23.2
+      defichain: 3.24.0
       randombytes: 2.1.0
       tiny-secp256k1: 1.1.6
       wif: 2.0.6
     dev: false
 
-  /@defichain/jellyfish-json/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-wJYnzx6cfpkKv9WIcQjJy4FNwfgks0Wr+uIzDxRFVo+/snpnZc8I7w8PsC7X8ZKiiIBeeptf6y23Grf9FdsdKA==}
+  /@defichain/jellyfish-json/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-EM0i7wvotGbp73BFGLBSDYNhYMFOFuR2ETMNWwpSH4be58ltVixJ25VjEz2qjnWsnGxAY4zXxTUiu6AIeuuMGA==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
       '@types/lossless-json': 1.0.1
       bignumber.js: 9.1.1
-      defichain: 3.23.2
+      defichain: 3.24.0
       lossless-json: 1.0.5
     dev: false
 
-  /@defichain/jellyfish-network/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-Oix/V/Nj3YX83FrkmafZRixZ+81TnhGia2OmbmqbhijpVJoKkILOrPxoLZ2njG1CvmDxqkuYzgI53gQ6lAXs7w==}
+  /@defichain/jellyfish-network/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-nLVjZvfgjh9hmYEEj9nKWVc713lTCdsX6Qk4vsuNkRxHfyNJik3FLPMYsnGoxRVp6Lx6zuj+UggTC/TI5rHCjA==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
       bignumber.js: 9.1.1
-      defichain: 3.23.2
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/jellyfish-testing/3.23.2_4st4dkabvhtmpqqdqxcht65hci:
-    resolution: {integrity: sha512-i9puw0Iybs6m6IEwnOF755LDOTAMK0tagU+BAm3wHzTkFUaSm7lLU6gPc1V9b8KNlu3kpcG5CVDjFKR9SE5LPQ==}
+  /@defichain/jellyfish-testing/3.24.0_rqxmzo6j3snh2v4k5rqi47bzaq:
+    resolution: {integrity: sha512-nC3S1W8AfPVzNqevkT42v9Qhvm8VPaFimZFXjbdZ91EuIAyfdv9FT+E5z+DY9NRzt9JS7hLmMFFKUO1vn87WGQ==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-api-jsonrpc': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-crypto': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-network': 3.23.2_defichain@3.23.2
-      '@defichain/testcontainers': 3.23.2_4st4dkabvhtmpqqdqxcht65hci
+      '@defichain/jellyfish-api-jsonrpc': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-crypto': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-network': 3.24.0_defichain@3.24.0
+      '@defichain/testcontainers': 3.24.0_rqxmzo6j3snh2v4k5rqi47bzaq
       cross-fetch: 3.1.5
-      defichain: 3.23.2
+      defichain: 3.24.0
     transitivePeerDependencies:
       - '@types/tar-fs'
       - encoding
       - supports-color
     dev: false
 
-  /@defichain/jellyfish-transaction-builder/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-2qDhaGZKDGhcI+husJpLq1lKrSP/miToIZdVf2/A1+hSsmBi0pyzanWV+zJh86fA/Uf6WKP508xgUN4K7UEhrg==}
+  /@defichain/jellyfish-transaction-builder/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-Ks4+mBp3D1oo9xEDaYMZWz7wPse+KvOZHaUNcJEgqy9ihg/9V+pdEN8+dkOhpo2de+4X+Rg3S5H6SG98LKLWrQ==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-crypto': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction-signature': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-crypto': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction-signature': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/jellyfish-transaction-signature/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-sI/98Xwdi4ZLUlQDVZfzka8yLlbSAEHAN04gzBVRe3b12jyLHSyUa4rNtm24kdCqFUO1e5opmG0ZXUYxjrAQkg==}
+  /@defichain/jellyfish-transaction-signature/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-0jlLxx1Y8wul3KD0/N1IAhHzYRPbD8lwfZbR/i29UNtuNvbIywesHWhMx+v2f3ji5YtqssgIiqTDCeHLGxBsTg==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-buffer': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-crypto': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-buffer': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-crypto': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/jellyfish-transaction/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-suzudq8nJ4hYK1gS1l2aU8APwSGQmqF3vH7kc6uccoeK5CiWHfZDKxunqvDnxBPdXMx2oYbuYE3Xy27y0Ij8Fw==}
+  /@defichain/jellyfish-transaction/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-u4KFv/0texkyb679fUrpi5rZenXaFWRvkcbsCp7RP3EZUrW/89C03LwvhI5LH/59xI1o1DB3sHuDddkY97nD7Q==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-buffer': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-crypto': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-buffer': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-crypto': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/jellyfish-wallet-encrypted/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-xCb+BNXavLVCTb8nDLLzIfINVQJV+Dqcn94v9DNeWXGruGegzRw+a/B9FQDP8VSY0wKqtyRmMORMbTC27RNoQw==}
+  /@defichain/jellyfish-wallet-encrypted/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-G51g0I/vfoLVi/A+OrDW/SxTmrHx5W/bJ6GNGMl5D3mPCnQf6KsyaHslTECsXzrvboBmmnyvPkFEJ+COV99SAg==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-wallet-mnemonic': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-wallet-mnemonic': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
       scrypt-js: 3.0.1
     dev: false
 
-  /@defichain/jellyfish-wallet-mnemonic/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-bvhlwzeMD0ARnd/ZFjY1bxshqI6opUzWgCNbhOS4FcEM75mhmS8OmV0AcVGpYLjb65hEZ3H2zbbnQG/7Xc71hQ==}
+  /@defichain/jellyfish-wallet-mnemonic/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-cSwPQcLXkh5XG5zL/jy/lo4QoyRi7DOfaPLteheCjAKAMHswCeemI4NI/xFRtEPL4WIroogPH2jVXGCmP+mKcA==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-transaction': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-wallet': 3.23.2_defichain@3.23.2
+      '@defichain/jellyfish-transaction': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-wallet': 3.24.0_defichain@3.24.0
       bip32: 2.0.6
       bip39: 3.0.4
       create-hmac: 1.1.7
-      defichain: 3.23.2
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/jellyfish-wallet/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-NjS+7lD9ySR6iLQdmph2G8JNX76V9slJPac8ZgUQpKpbc+WGnXKQlW4Ig1vkNlxf5hUWCpYWy4E+cC/SFRr4Nw==}
+  /@defichain/jellyfish-wallet/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-U6zIm5t9I+EJpbnPpa/R2hNyo8lhAkW53zNRVvnyi3Tf3qW/ryNIB+vZTrHnr1HZmvesFMtmAgYFSlX9lVvP9Q==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-address': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-crypto': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-network': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction-builder': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-transaction-signature': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-address': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-crypto': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-network': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction-builder': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-transaction-signature': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
     dev: false
 
-  /@defichain/ocean-api-client/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-icx2IaNwx1DTsB44MrNPF3SDRMTSMqvQARgEQ8e+D9BgmTxB4GWx6Rxdit8p8SbMBLqqHutk0XbZ7230av2nWQ==}
+  /@defichain/ocean-api-client/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-EZfJjXnyvHu+MfkH7+r9hy+d0DUct5Y6ZMXKnDkiKPhjEkDKZWuNLeXXLQRCDdwSn0gNuEHow6nCZBqZO0Z7kA==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
       abort-controller: 3.0.0
       cross-fetch: 3.1.5
-      defichain: 3.23.2
+      defichain: 3.24.0
       url-search-params-polyfill: 8.1.1
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/playground-api-client/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-57+DeLPANmBunfhu6MZnuRJDOY9rTTRdUPzGy+fi/5nM7AOLBIiYpCXNLg5cBddM/y4THgLW09vIAIWcSn6qCA==}
+  /@defichain/playground-api-client/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-LwbVcgn6muWUcGTMyhvCuOKGYYIVA1DX6877i/+HTrYh+tnph0RTz8O3pS7LTdn7N5E763cZ8RMHWtiLlN4I7w==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-api-core': 3.23.2_defichain@3.23.2
-      '@defichain/ocean-api-client': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-api-core': 3.24.0_defichain@3.24.0
+      '@defichain/ocean-api-client': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/testcontainers/3.23.2_4st4dkabvhtmpqqdqxcht65hci:
-    resolution: {integrity: sha512-/I7uxZ+del45r8Xg+iOUlle6qE2GUwsTvLWLQtl6IWeGQYeVHxK3MZ3S8e0AEE0KZXlrNxKRxHOo5VxTA9343Q==}
+  /@defichain/testcontainers/3.24.0_rqxmzo6j3snh2v4k5rqi47bzaq:
+    resolution: {integrity: sha512-UfTMU/e8xH4sRyZKZlvbiG90w9qSg3DvmH3LaqUhlXV6NiTmLaulYgXRpUhdbArDTsS1EaI4WnKTIMXY70ON5A==}
     peerDependencies:
       '@types/tar-fs': ^2.0.1
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-network': 3.23.2_defichain@3.23.2
+      '@defichain/jellyfish-network': 3.24.0_defichain@3.24.0
       '@types/tar-fs': 2.0.1
       cross-fetch: 3.1.5
-      defichain: 3.23.2
+      defichain: 3.24.0
       dockerode: 3.3.4
       tar-fs: 2.1.1
       testcontainers: 9.1.1
@@ -681,30 +681,30 @@ packages:
       - supports-color
     dev: false
 
-  /@defichain/whale-api-client/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-I4KRWeF2cZnledtp2Ku2WhhkjrPKMZKo+cJtTeFlscrwx8hOr8DuwBMax2xGbxnKI3J0MIKeI4y74vEXBK0DNg==}
+  /@defichain/whale-api-client/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-gE91t73J1DK2AhbxoZUu2ZZePYtRktaYfiVyLmDJ/EwitrrR/G2ieDXtWukMb+w6SonSmErt6z0zWUonww08xQ==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-api-core': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-api-jsonrpc': 3.23.2_defichain@3.23.2
+      '@defichain/jellyfish-api-core': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-api-jsonrpc': 3.24.0_defichain@3.24.0
       abort-controller: 3.0.0
       cross-fetch: 3.1.5
-      defichain: 3.23.2
+      defichain: 3.24.0
       url-search-params-polyfill: 8.1.1
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/whale-api-wallet/3.23.2_defichain@3.23.2:
-    resolution: {integrity: sha512-IYtF+eAidp9ZHrL19WuXYPrPPwPpJgr70OtL3qCR2XE6eEwibR4aTTyfFVLT3e8ukw+aKvfyHCiTovwwe3XR5A==}
+  /@defichain/whale-api-wallet/3.24.0_defichain@3.24.0:
+    resolution: {integrity: sha512-agQa9yThwbWOsHQIyf4TmaOinZMESrLFIOuvlopVcvtJYgmD+U5hxq2RyaUYG5eVu1Ki1xZk0HibiTvPusI26A==}
     peerDependencies:
-      defichain: ^3.23.2
+      defichain: ^3.24.0
     dependencies:
-      '@defichain/jellyfish-transaction-builder': 3.23.2_defichain@3.23.2
-      '@defichain/jellyfish-wallet': 3.23.2_defichain@3.23.2
-      '@defichain/whale-api-client': 3.23.2_defichain@3.23.2
-      defichain: 3.23.2
+      '@defichain/jellyfish-transaction-builder': 3.24.0_defichain@3.24.0
+      '@defichain/jellyfish-wallet': 3.24.0_defichain@3.24.0
+      '@defichain/whale-api-client': 3.24.0_defichain@3.24.0
+      defichain: 3.24.0
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -1426,7 +1426,7 @@ packages:
   /@types/docker-modem/3.0.2:
     resolution: {integrity: sha512-qC7prjoEYR2QEe6SmCVfB1x3rfcQtUr1n4x89+3e0wSTMQ/KYCyf+/RAA9n2tllkkNc6//JMUZePdFRiGIWfaQ==}
     dependencies:
-      '@types/node': 11.11.6
+      '@types/node': 18.11.18
       '@types/ssh2': 1.11.7
     dev: false
 
@@ -1434,14 +1434,14 @@ packages:
     resolution: {integrity: sha512-PUTwtySPzCbjZ/uqRMBWKHtLGqBAlhnLitzHuom19NEX0KBYsQXqbVlig+zbUgYQU1paDeQURXj7QNglh1RI6A==}
     dependencies:
       '@types/docker-modem': 3.0.2
-      '@types/node': 11.11.6
+      '@types/node': 18.11.18
     dev: false
 
   /@types/glob/8.0.1:
     resolution: {integrity: sha512-8bVUjXZvJacUFkJXHdyZ9iH1Eaj5V7I8c4NdH5sQJsdXkqT4CA5Dhb4yb4VE/3asyx4L9ayZr1NIhTsWHczmMw==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 11.11.6
+      '@types/node': 18.11.18
     dev: false
 
   /@types/hoist-non-react-statics/3.3.1:
@@ -1518,7 +1518,7 @@ packages:
   /@types/ssh2/0.5.52:
     resolution: {integrity: sha512-lbLLlXxdCZOSJMCInKH2+9V/77ET2J6NPQHpFI0kda61Dd1KglJs+fPQBchizmzYSOJBgdTajhPqBO1xxLywvg==}
     dependencies:
-      '@types/node': 11.11.6
+      '@types/node': 18.11.18
       '@types/ssh2-streams': 0.1.9
     dev: false
 
@@ -2390,8 +2390,8 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: false
 
-  /defichain/3.23.2:
-    resolution: {integrity: sha512-K61KcDd8OI3Ki/ZGnegMAaK6hNqf4PGcFOZgHad6AOHCZ5++FR0yX59Z8lelbHSaGmrbQnyKncETfkdoApEduQ==}
+  /defichain/3.24.0:
+    resolution: {integrity: sha512-64QzWbu+RPwfPz8/tfS6CwPqnX5duK7wItpbx1HKM07dHGE8X/5/siS7AZJ2JZgzslX5aQksdtZ8FhiEy6ntRw==}
     engines: {node: '>=v16.17.0'}
     dev: false
 
