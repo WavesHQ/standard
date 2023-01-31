@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      '@birthdayresearch/sticky-prettier': ^0.3.6
-      '@birthdayresearch/sticky-turbo': ^0.3.6
+      '@birthdayresearch/sticky-prettier': ^0.3.7
+      '@birthdayresearch/sticky-turbo': ^0.3.7
       '@waveshq/standard-prettier': workspace:*
     devDependencies:
-      '@birthdayresearch/sticky-prettier': 0.3.6
-      '@birthdayresearch/sticky-turbo': 0.3.6
+      '@birthdayresearch/sticky-prettier': 0.3.7
+      '@birthdayresearch/sticky-turbo': 0.3.7
       '@waveshq/standard-prettier': link:packages/standard-prettier
 
   packages/standard-defichain-jellyfishsdk:
@@ -447,20 +447,34 @@ packages:
     resolution: {integrity: sha512-wMue2Sy4GAVTk6Ic4tJVcnfdau+gx2EnG7S+uAEe+TWJFqE4YoWN4/H8MSLj4eYJKxGg26lZwboEniNiNwZQ6Q==}
     dev: false
 
-  /@birthdayresearch/sticky-prettier/0.3.6:
-    resolution: {integrity: sha512-JaH97wFsacfKtqLXotqtg9X5j9HeuI9g242VMDZfB3Q7uD9i5kPgNQdj6jVsSL7OsEYF6V/M76jlF+jCuYepjg==}
+  /@birthdayresearch/sticky-prettier/0.3.7:
+    resolution: {integrity: sha512-tY6EGmq1yqDrGGP8QnfiHGWlQFBnDfRV5teDJkrIlTnr7w65NHJivXfm/V7Sazb1pwEfJimOxCSfeoE4tBbZgQ==}
     dependencies:
       husky: 8.0.3
       lint-staged: 13.1.0
       prettier: 2.8.3
-      prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.3
+      prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.3
     transitivePeerDependencies:
+      - '@prettier/plugin-php'
+      - '@prettier/plugin-pug'
+      - '@shopify/prettier-plugin-liquid'
+      - '@shufo/prettier-plugin-blade'
+      - '@trivago/prettier-plugin-sort-imports'
       - enquirer
+      - prettier-plugin-astro
+      - prettier-plugin-css-order
+      - prettier-plugin-import-sort
+      - prettier-plugin-jsdoc
+      - prettier-plugin-organize-attributes
+      - prettier-plugin-organize-imports
+      - prettier-plugin-style-order
+      - prettier-plugin-svelte
+      - prettier-plugin-twig-melody
       - supports-color
     dev: true
 
-  /@birthdayresearch/sticky-turbo/0.3.6:
-    resolution: {integrity: sha512-SJTFStsfWXslVdRZZPMonbu4wz31SyTWtocgwhdP5aqMVl98dMghdJUv8f161iACyn76ZrWgF7gVOxWYaTd8hA==}
+  /@birthdayresearch/sticky-turbo/0.3.7:
+    resolution: {integrity: sha512-9jMzhIeR1pmL01OdJwHr6tUCinoJeqwhLJb50VMUjPO2zD7IMG2vN0RR7/WtcVuysrf//MgyW1855LF10fCCmg==}
     dependencies:
       turbo: 1.7.0
     dev: true
@@ -4562,11 +4576,54 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.3:
-    resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
+  /prettier-plugin-tailwindcss/0.2.2_prettier@2.8.3:
+    resolution: {integrity: sha512-5RjUbWRe305pUpc48MosoIp6uxZvZxrM6GyOgsbGLTce+ehePKNm7ziW2dLG2air9aXbGuXlHVSQQw4Lbosq3w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
+      '@prettier/plugin-php': '*'
+      '@prettier/plugin-pug': '*'
+      '@shopify/prettier-plugin-liquid': '*'
+      '@shufo/prettier-plugin-blade': '*'
+      '@trivago/prettier-plugin-sort-imports': '*'
       prettier: '>=2.2.0'
+      prettier-plugin-astro: '*'
+      prettier-plugin-css-order: '*'
+      prettier-plugin-import-sort: '*'
+      prettier-plugin-jsdoc: '*'
+      prettier-plugin-organize-attributes: '*'
+      prettier-plugin-organize-imports: '*'
+      prettier-plugin-style-order: '*'
+      prettier-plugin-svelte: '*'
+      prettier-plugin-twig-melody: '*'
+    peerDependenciesMeta:
+      '@prettier/plugin-php':
+        optional: true
+      '@prettier/plugin-pug':
+        optional: true
+      '@shopify/prettier-plugin-liquid':
+        optional: true
+      '@shufo/prettier-plugin-blade':
+        optional: true
+      '@trivago/prettier-plugin-sort-imports':
+        optional: true
+      prettier-plugin-astro:
+        optional: true
+      prettier-plugin-css-order:
+        optional: true
+      prettier-plugin-import-sort:
+        optional: true
+      prettier-plugin-jsdoc:
+        optional: true
+      prettier-plugin-organize-attributes:
+        optional: true
+      prettier-plugin-organize-imports:
+        optional: true
+      prettier-plugin-style-order:
+        optional: true
+      prettier-plugin-svelte:
+        optional: true
+      prettier-plugin-twig-melody:
+        optional: true
     dependencies:
       prettier: 2.8.3
     dev: true
