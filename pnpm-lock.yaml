@@ -85,7 +85,7 @@ importers:
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
       lint-staged: ^13.1.0
-      prettier: ^2.8.3
+      prettier: ^2.8.4
       typescript: 4.9.5
     dependencies:
       eslint: 8.33.0
@@ -95,13 +95,13 @@ importers:
       eslint-plugin-cypress: 2.12.1_eslint@8.33.0
       eslint-plugin-import: 2.27.5_jcosknk6szzht2id2l6o5ijzg4
       eslint-plugin-node: 11.1.0_eslint@8.33.0
-      eslint-plugin-prettier: 4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq
+      eslint-plugin-prettier: 4.2.1_qa2thblfovmfepmgrc7z2owbo4
       eslint-plugin-react: 7.32.2_eslint@8.33.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.33.0
       husky: 8.0.3
       lint-staged: 13.1.0
-      prettier: 2.8.3
+      prettier: 2.8.4
       typescript: 4.9.5
 
   packages/standard-prettier:
@@ -114,18 +114,18 @@ importers:
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
       lint-staged: ^13.1.0
-      prettier: ^2.8.3
+      prettier: ^2.8.4
       typescript: 4.9.5
     dependencies:
       eslint: 8.33.0
       eslint-config-airbnb: 19.0.4_uhus6rimx3ujvztlky4xaizltu
       eslint-config-airbnb-typescript: 17.0.0_rbxgavbwme34r4ppadj6i2r5ry
       eslint-config-prettier: 8.6.0_eslint@8.33.0
-      eslint-plugin-prettier: 4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq
+      eslint-plugin-prettier: 4.2.1_qa2thblfovmfepmgrc7z2owbo4
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.33.0
       husky: 8.0.3
       lint-staged: 13.1.0
-      prettier: 2.8.3
+      prettier: 2.8.4
       typescript: 4.9.5
 
   packages/standard-web:
@@ -178,7 +178,7 @@ importers:
       husky: ^8.0.3
       lint-staged: ^13.1.0
       next: 13.1.6
-      prettier: ^2.8.3
+      prettier: ^2.8.4
       typescript: 4.9.5
     dependencies:
       eslint: 8.33.0
@@ -190,14 +190,14 @@ importers:
       eslint-plugin-import: 2.27.5_jcosknk6szzht2id2l6o5ijzg4
       eslint-plugin-jsx-a11y: 6.7.1_eslint@8.33.0
       eslint-plugin-node: 11.1.0_eslint@8.33.0
-      eslint-plugin-prettier: 4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq
+      eslint-plugin-prettier: 4.2.1_qa2thblfovmfepmgrc7z2owbo4
       eslint-plugin-react: 7.32.2_eslint@8.33.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.33.0
       husky: 8.0.3
       lint-staged: 13.1.0
       next: 13.1.6_biqbaboplfbrettd7655fr4n2y
-      prettier: 2.8.3
+      prettier: 2.8.4
       typescript: 4.9.5
 
 packages:
@@ -452,8 +452,8 @@ packages:
     dependencies:
       husky: 8.0.3
       lint-staged: 13.1.0
-      prettier: 2.8.3
-      prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.3
+      prettier: 2.8.4
+      prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.4
     transitivePeerDependencies:
       - '@prettier/plugin-php'
       - '@prettier/plugin-pug'
@@ -2931,7 +2931,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq:
+  /eslint-plugin-prettier/4.2.1_qa2thblfovmfepmgrc7z2owbo4:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2944,7 +2944,7 @@ packages:
     dependencies:
       eslint: 8.33.0
       eslint-config-prettier: 8.6.0_eslint@8.33.0
-      prettier: 2.8.3
+      prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -4575,7 +4575,7 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-tailwindcss/0.2.2_prettier@2.8.3:
+  /prettier-plugin-tailwindcss/0.2.2_prettier@2.8.4:
     resolution: {integrity: sha512-5RjUbWRe305pUpc48MosoIp6uxZvZxrM6GyOgsbGLTce+ehePKNm7ziW2dLG2air9aXbGuXlHVSQQw4Lbosq3w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -4624,11 +4624,11 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 2.8.3
+      prettier: 2.8.4
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
 
