@@ -84,7 +84,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
-      lint-staged: ^13.1.0
+      lint-staged: ^13.1.1
       prettier: ^2.8.4
       typescript: 4.9.5
     dependencies:
@@ -100,7 +100,7 @@ importers:
       eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.33.0
       husky: 8.0.3
-      lint-staged: 13.1.0
+      lint-staged: 13.1.1
       prettier: 2.8.4
       typescript: 4.9.5
 
@@ -113,7 +113,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
-      lint-staged: ^13.1.0
+      lint-staged: ^13.1.1
       prettier: ^2.8.4
       typescript: 4.9.5
     dependencies:
@@ -124,7 +124,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_qa2thblfovmfepmgrc7z2owbo4
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.33.0
       husky: 8.0.3
-      lint-staged: 13.1.0
+      lint-staged: 13.1.1
       prettier: 2.8.4
       typescript: 4.9.5
 
@@ -176,7 +176,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
-      lint-staged: ^13.1.0
+      lint-staged: ^13.1.1
       next: 13.1.6
       prettier: ^2.8.4
       typescript: 4.9.5
@@ -195,7 +195,7 @@ importers:
       eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.33.0
       husky: 8.0.3
-      lint-staged: 13.1.0
+      lint-staged: 13.1.1
       next: 13.1.6_biqbaboplfbrettd7655fr4n2y
       prettier: 2.8.4
       typescript: 4.9.5
@@ -3931,29 +3931,6 @@ packages:
     resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
     engines: {node: '>=10'}
 
-  /lint-staged/13.1.0:
-    resolution: {integrity: sha512-pn/sR8IrcF/T0vpWLilih8jmVouMlxqXxKuAojmbiGX5n/gDnz+abdPptlj0vYnbfE0SQNl3CY/HwtM0+yfOVQ==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    hasBin: true
-    dependencies:
-      cli-truncate: 3.1.0
-      colorette: 2.0.19
-      commander: 9.4.1
-      debug: 4.3.4
-      execa: 6.1.0
-      lilconfig: 2.0.6
-      listr2: 5.0.6
-      micromatch: 4.0.5
-      normalize-path: 3.0.0
-      object-inspect: 1.12.2
-      pidtree: 0.6.0
-      string-argv: 0.3.1
-      yaml: 2.1.3
-    transitivePeerDependencies:
-      - enquirer
-      - supports-color
-    dev: false
-
   /lint-staged/13.1.1:
     resolution: {integrity: sha512-LLJLO0Kdbcv2a+CvSF4p1M7jBZOajKSMpBUvyR8+bXccsqPER0/NxTFQSpNHjqwV9kM3tkHczYerTB5wI+bksQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
@@ -3975,7 +3952,6 @@ packages:
     transitivePeerDependencies:
       - enquirer
       - supports-color
-    dev: true
 
   /listhen/0.2.15:
     resolution: {integrity: sha512-F/IWj/aJLeokHAIVY+l3JoWRUnbRaf2F0cr+Ybc1YyozMA/yP0C2nf3c0Oi7vAbFvtfiwfWWfP7bIrQc/u5L1A==}
