@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      '@birthdayresearch/sticky-prettier': ^0.3.8
-      '@birthdayresearch/sticky-turbo': ^0.3.8
+      '@birthdayresearch/sticky-prettier': ^0.4.0
+      '@birthdayresearch/sticky-turbo': ^0.4.0
       '@waveshq/standard-prettier': workspace:*
     devDependencies:
-      '@birthdayresearch/sticky-prettier': 0.3.8
-      '@birthdayresearch/sticky-turbo': 0.3.8
+      '@birthdayresearch/sticky-prettier': 0.4.0
+      '@birthdayresearch/sticky-turbo': 0.4.0
       '@waveshq/standard-prettier': link:packages/standard-prettier
 
   packages/standard-defichain-jellyfishsdk:
@@ -447,11 +447,11 @@ packages:
     resolution: {integrity: sha512-wMue2Sy4GAVTk6Ic4tJVcnfdau+gx2EnG7S+uAEe+TWJFqE4YoWN4/H8MSLj4eYJKxGg26lZwboEniNiNwZQ6Q==}
     dev: false
 
-  /@birthdayresearch/sticky-prettier/0.3.8:
-    resolution: {integrity: sha512-0kGVrgqbHIALjqyYOCALT39v3scoYObkioZwgu9NtkIMReWk6DNycfgNxKl6pIQriGH6f0oTrUQTkZgRLka10Q==}
+  /@birthdayresearch/sticky-prettier/0.4.0:
+    resolution: {integrity: sha512-S5Z+0R2PAsH9KDfrd1B1juE0dqYAKYn2VlkmS4D8EC03TS06ADNuAOHRugaT935qpgsEYJZqD4rgEFl1Ce7h8g==}
     dependencies:
       husky: 8.0.3
-      lint-staged: 13.1.0
+      lint-staged: 13.1.1
       prettier: 2.8.4
       prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.4
     transitivePeerDependencies:
@@ -473,8 +473,8 @@ packages:
       - supports-color
     dev: true
 
-  /@birthdayresearch/sticky-turbo/0.3.8:
-    resolution: {integrity: sha512-3DSKP87eJglls7JULBIgUWm7V3g8ekOlAujjILsGY+HWDgf8WJXA8PQxAeDTpRptDWHYedtZaprl5Yd8jspipA==}
+  /@birthdayresearch/sticky-turbo/0.4.0:
+    resolution: {integrity: sha512-8Myif7Eh/04pKFDspXyCOWVXWtwok/0mF84ZFhRLogqSYJzS49hxdqCPQRlCM2vIsMnFIQ3mrwuIcB7bcPqmjg==}
     dependencies:
       turbo: 1.7.2
     dev: true
@@ -3952,6 +3952,30 @@ packages:
     transitivePeerDependencies:
       - enquirer
       - supports-color
+    dev: false
+
+  /lint-staged/13.1.1:
+    resolution: {integrity: sha512-LLJLO0Kdbcv2a+CvSF4p1M7jBZOajKSMpBUvyR8+bXccsqPER0/NxTFQSpNHjqwV9kM3tkHczYerTB5wI+bksQ==}
+    engines: {node: ^14.13.1 || >=16.0.0}
+    hasBin: true
+    dependencies:
+      cli-truncate: 3.1.0
+      colorette: 2.0.19
+      commander: 9.4.1
+      debug: 4.3.4
+      execa: 6.1.0
+      lilconfig: 2.0.6
+      listr2: 5.0.6
+      micromatch: 4.0.5
+      normalize-path: 3.0.0
+      object-inspect: 1.12.2
+      pidtree: 0.6.0
+      string-argv: 0.3.1
+      yaml: 2.1.3
+    transitivePeerDependencies:
+      - enquirer
+      - supports-color
+    dev: true
 
   /listhen/0.2.15:
     resolution: {integrity: sha512-F/IWj/aJLeokHAIVY+l3JoWRUnbRaf2F0cr+Ybc1YyozMA/yP0C2nf3c0Oi7vAbFvtfiwfWWfP7bIrQc/u5L1A==}
