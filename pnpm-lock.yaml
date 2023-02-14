@@ -84,7 +84,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
-      lint-staged: ^13.1.1
+      lint-staged: ^13.1.2
       prettier: ^2.8.4
       typescript: 4.9.5
     dependencies:
@@ -100,7 +100,7 @@ importers:
       eslint-plugin-react-hooks: 4.6.0_eslint@8.34.0
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.34.0
       husky: 8.0.3
-      lint-staged: 13.1.1
+      lint-staged: 13.1.2
       prettier: 2.8.4
       typescript: 4.9.5
 
@@ -113,7 +113,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
-      lint-staged: ^13.1.1
+      lint-staged: ^13.1.2
       prettier: ^2.8.4
       typescript: 4.9.5
     dependencies:
@@ -124,7 +124,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_u5wnrdwibbfomslmnramz52buy
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.34.0
       husky: 8.0.3
-      lint-staged: 13.1.1
+      lint-staged: 13.1.2
       prettier: 2.8.4
       typescript: 4.9.5
 
@@ -176,7 +176,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-simple-import-sort: ^9.0.0
       husky: ^8.0.3
-      lint-staged: ^13.1.1
+      lint-staged: ^13.1.2
       next: 13.1.6
       prettier: ^2.8.4
       typescript: 4.9.5
@@ -195,7 +195,7 @@ importers:
       eslint-plugin-react-hooks: 4.6.0_eslint@8.34.0
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.34.0
       husky: 8.0.3
-      lint-staged: 13.1.1
+      lint-staged: 13.1.2
       next: 13.1.6_biqbaboplfbrettd7655fr4n2y
       prettier: 2.8.4
       typescript: 4.9.5
@@ -451,7 +451,7 @@ packages:
     resolution: {integrity: sha512-sSCg8IcvpLBi69S4fkJE9C+mVS7zjyvlwst1BSBC7OIBl4v0mYa7gIGRcXGQzKGMw2rHB4a/fKTQpbvcgsinMw==}
     dependencies:
       husky: 8.0.3
-      lint-staged: 13.1.1
+      lint-staged: 13.1.2
       prettier: 2.8.4
       prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.4
     transitivePeerDependencies:
@@ -3931,8 +3931,8 @@ packages:
     resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
     engines: {node: '>=10'}
 
-  /lint-staged/13.1.1:
-    resolution: {integrity: sha512-LLJLO0Kdbcv2a+CvSF4p1M7jBZOajKSMpBUvyR8+bXccsqPER0/NxTFQSpNHjqwV9kM3tkHczYerTB5wI+bksQ==}
+  /lint-staged/13.1.2:
+    resolution: {integrity: sha512-K9b4FPbWkpnupvK3WXZLbgu9pchUJ6N7TtVZjbaPsoizkqFUDkUReUL25xdrCljJs7uLUF3tZ7nVPeo/6lp+6w==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
