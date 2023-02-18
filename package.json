@@ -13,9 +13,9 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@birthdayresearch/sticky-prettier": "^0.4.1",
+    "@birthdayresearch/sticky-prettier": "^0.5.0",
     "@waveshq/standard-prettier": "workspace:*",
-    "@birthdayresearch/sticky-turbo": "^0.4.1"
+    "@birthdayresearch/sticky-turbo": "^0.5.0"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
