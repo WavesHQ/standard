@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      '@birthdayresearch/sticky-prettier': ^0.5.3
-      '@birthdayresearch/sticky-turbo': ^0.5.3
+      '@birthdayresearch/sticky-prettier': ^0.5.4
+      '@birthdayresearch/sticky-turbo': ^0.5.4
       '@waveshq/standard-prettier': workspace:*
     devDependencies:
-      '@birthdayresearch/sticky-prettier': 0.5.3
-      '@birthdayresearch/sticky-turbo': 0.5.3
+      '@birthdayresearch/sticky-prettier': 0.5.4
+      '@birthdayresearch/sticky-turbo': 0.5.4
       '@waveshq/standard-prettier': link:packages/standard-prettier
 
   packages/standard-defichain-jellyfishsdk:
@@ -447,13 +447,13 @@ packages:
     resolution: {integrity: sha512-wMue2Sy4GAVTk6Ic4tJVcnfdau+gx2EnG7S+uAEe+TWJFqE4YoWN4/H8MSLj4eYJKxGg26lZwboEniNiNwZQ6Q==}
     dev: false
 
-  /@birthdayresearch/sticky-prettier/0.5.3:
-    resolution: {integrity: sha512-/q1KB+9yg+/vr2dsBVofrbDFYEt9ek8oS7uHyKhhInvAlVew7/WcQPljCPsAynM3KiLbGbX6IxCAi/lCzxTHVg==}
+  /@birthdayresearch/sticky-prettier/0.5.4:
+    resolution: {integrity: sha512-HVBh2V9HVk3Lq0j+gZHh7uhffLLOgT2x9VFz3/WuC5sygQG4ZVYNjlF8gZvarl1kFUc16uaePE3op29x4hcqYA==}
     dependencies:
       husky: 8.0.3
       lint-staged: 13.1.2
       prettier: 2.8.4
-      prettier-plugin-tailwindcss: 0.2.3_prettier@2.8.4
+      prettier-plugin-tailwindcss: 0.2.4_prettier@2.8.4
     transitivePeerDependencies:
       - '@ianvs/prettier-plugin-sort-imports'
       - '@prettier/plugin-php'
@@ -474,8 +474,8 @@ packages:
       - supports-color
     dev: true
 
-  /@birthdayresearch/sticky-turbo/0.5.3:
-    resolution: {integrity: sha512-sU/s3fCJzVg660YKcARM4hZEQXj836yv+CbME5P9VgGLMjeYjj4fPbLaBA4Glc2oLxfFR9b1VLap1hQV6RiRhQ==}
+  /@birthdayresearch/sticky-turbo/0.5.4:
+    resolution: {integrity: sha512-qfzqfOMjtIK6iSGfvcK5r18xCRC6AocIwvd/6yxPU7EHazjkO0iG4tP0Hj/+JfQERGsRZq3258lA9Q0+DjcEsg==}
     dependencies:
       turbo: 1.8.3
     dev: true
@@ -4601,8 +4601,8 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-tailwindcss/0.2.3_prettier@2.8.4:
-    resolution: {integrity: sha512-s2N5Dh7Ao5KTV1mao5ZBnn8EKtUcDPJEkGViZIjI0Ij9TTI5zgTz4IHOxW33jOdjHKa8CSjM88scelUiC5TNRQ==}
+  /prettier-plugin-tailwindcss/0.2.4_prettier@2.8.4:
+    resolution: {integrity: sha512-wMyugRI2yD8gqmMpZSS8kTA0gGeKozX/R+w8iWE+yiCZL09zY0SvfiHfHabNhjGhzxlQ2S2VuTxPE3T72vppCQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
