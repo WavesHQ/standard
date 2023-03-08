@@ -136,7 +136,7 @@ importers:
       '@types/react-dom': 18.0.11
       follow-redirects: ^1.15.2
       next: 13.2.3
-      next-sitemap: ^4.0.2
+      next-sitemap: ^4.0.4
       nextjs-progressbar: ^0.0.16
       react: 18.2.0
       react-dom: 18.2.0
@@ -151,7 +151,7 @@ importers:
       '@types/react-dom': 18.0.11
       follow-redirects: 1.15.2
       next: 13.2.3_biqbaboplfbrettd7655fr4n2y
-      next-sitemap: 4.0.2_xeg3tdra7hobsncwzvo3da7vxi
+      next-sitemap: 4.0.4_xeg3tdra7hobsncwzvo3da7vxi
       nextjs-progressbar: 0.0.16_next@13.2.3+react@18.2.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -4202,8 +4202,8 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: false
 
-  /next-sitemap/4.0.2_xeg3tdra7hobsncwzvo3da7vxi:
-    resolution: {integrity: sha512-NQVzguzW6xkh0fZzmgZJ//H9f1DdvKmhJmTO1xuIPmDuZxM2Gd48CrKHXVnbK0zAx52hpyNe3ZUGkrExUWyljg==}
+  /next-sitemap/4.0.4_xeg3tdra7hobsncwzvo3da7vxi:
+    resolution: {integrity: sha512-4/bUDeWNx03fc8ac+5wA55H1Zn3X3c1qj5iq3Mk5eidzxnBzIuUt4NJ+1TpB0n1m7HUgEtE+kaUGShFK0McZVg==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
