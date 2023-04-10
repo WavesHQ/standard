@@ -179,8 +179,8 @@ importers:
   packages/standard-web:
     dependencies:
       '@netlify/ipx':
-        specifier: ^1.3.3
-        version: 1.3.3
+        specifier: ^1.4.0
+        version: 1.4.0
       '@reduxjs/toolkit':
         specifier: ^1.9.3
         version: 1.9.3(react-redux@8.0.5)(react@18.2.0)
@@ -1106,8 +1106,8 @@ packages:
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/ipx@1.3.3:
-    resolution: {integrity: sha512-2rDdCGPDPW7cyJr57rwfvpouOJx34CLDgfa2yfqTKvPzqCMOqkCi1PN/rHGuvJ/k5trZ8rxmWnnZyEbeQaZcqA==}
+  /@netlify/ipx@1.4.0:
+    resolution: {integrity: sha512-Ibqg1W41EVMHNT/W6JSDUyxjhcxsbEL9vL9ZaNjn9tVKnDYxJ8JqRTwSbzfns+K+M3FLqoC4PLW32qW+vT1pKQ==}
     dependencies:
       '@netlify/functions': 1.4.0
       etag: 1.8.1
@@ -1116,7 +1116,7 @@ packages:
       micromatch: 4.0.5
       mkdirp: 1.0.4
       murmurhash: 2.0.1
-      node-fetch: 2.6.7
+      node-fetch: 2.6.9
       ufo: 1.0.1
       unstorage: 1.0.1
     transitivePeerDependencies:
