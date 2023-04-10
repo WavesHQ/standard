@@ -197,8 +197,8 @@ importers:
         specifier: 13.2.4
         version: 13.2.4(react-dom@18.2.0)(react@18.2.0)
       next-sitemap:
-        specifier: ^4.0.6
-        version: 4.0.6(@next/env@13.2.4)(next@13.2.4)
+        specifier: ^4.0.7
+        version: 4.0.7(@next/env@13.2.4)(next@13.2.4)
       nextjs-progressbar:
         specifier: ^0.0.16
         version: 0.0.16(next@13.2.4)(react@18.2.0)
@@ -4245,8 +4245,8 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: false
 
-  /next-sitemap@4.0.6(@next/env@13.2.4)(next@13.2.4):
-    resolution: {integrity: sha512-pZ9tynYe6mRR189qZqcOlWVgM1Gxo07BJQW0AjerKmLwQOt+6FQMdaDgifgCt6jDT3Y3EG/+NUDDZRcd0gbPkA==}
+  /next-sitemap@4.0.7(@next/env@13.2.4)(next@13.2.4):
+    resolution: {integrity: sha512-S2g5IwJeO0+ecmFq981fb+Mw9YWmntOuN/qTCxclSkUibOJ8qKIOye0vn6NEJ1S4tKhbY+MTYKgJpNdFZYxLoA==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
