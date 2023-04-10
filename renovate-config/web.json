@@ -48,7 +48,7 @@
       "groupName": "@birthdayresearch/contented"
     },
     {
-      "matchPackagePatterns": ["^@birthdayresearch/sticky-"],
+      "matchPackagePatterns": ["^@birthdayresearch/sticky-", "^@birthdayresearch/eslint-config"],
       "groupName": "@birthdayresearch/sticky"
     },
     {
