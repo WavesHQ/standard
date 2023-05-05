@@ -5,11 +5,11 @@ importers:
   .:
     devDependencies:
       '@birthdayresearch/sticky-prettier':
-        specifier: ^0.5.11
-        version: 0.5.11
+        specifier: ^0.5.12
+        version: 0.5.12
       '@birthdayresearch/sticky-turbo':
-        specifier: ^0.5.11
-        version: 0.5.11
+        specifier: ^0.5.12
+        version: 0.5.12
       '@waveshq/standard-prettier':
         specifier: workspace:*
         version: link:packages/standard-prettier
@@ -525,16 +525,15 @@ packages:
     resolution: {integrity: sha512-wMue2Sy4GAVTk6Ic4tJVcnfdau+gx2EnG7S+uAEe+TWJFqE4YoWN4/H8MSLj4eYJKxGg26lZwboEniNiNwZQ6Q==}
     dev: false
 
-  /@birthdayresearch/sticky-prettier@0.5.11:
-    resolution: {integrity: sha512-aVMCaLRWVM+s8otz0uVogKlTllYcEqoLCZDy6eVJXcNIV68S/sUp1KCWfahxya9AVQsbU+Jretv+i9vmgHqXrg==}
+  /@birthdayresearch/sticky-prettier@0.5.12:
+    resolution: {integrity: sha512-O4SVW0KhisvBnkB8rrNWfpTD9lHU/KXTQtV/B7efFXsAbEGkr/HydhqnLSgIgGTT0KroBBzMpbSSqWDE44cvsw==}
     dependencies:
       husky: 8.0.3
       lint-staged: 13.2.2
       prettier: 2.8.8
-      prettier-plugin-tailwindcss: 0.2.7(prettier@2.8.8)
+      prettier-plugin-tailwindcss: 0.2.8(prettier@2.8.8)
     transitivePeerDependencies:
       - '@ianvs/prettier-plugin-sort-imports'
-      - '@prettier/plugin-php'
       - '@prettier/plugin-pug'
       - '@shopify/prettier-plugin-liquid'
       - '@shufo/prettier-plugin-blade'
@@ -552,8 +551,8 @@ packages:
       - supports-color
     dev: true
 
-  /@birthdayresearch/sticky-turbo@0.5.11:
-    resolution: {integrity: sha512-8RmkKuTzx/aoTPSF59+vK6ECZWXoIw3qZ1NyGeiYd1hPAHoyOOMgn7GZR/LGdVpSoIdyC/2wTcNrCLZ4aYGiVg==}
+  /@birthdayresearch/sticky-turbo@0.5.12:
+    resolution: {integrity: sha512-DPMrgDeJvqzm5/+p01PrjjPOXNH2ExhfUeaLFr2OSuH4+kwQykco9Dqdm9NtWeTSKzPjMFa/92gXxca+uU6FZQ==}
     dependencies:
       turbo: 1.9.3
     dev: true
@@ -4604,12 +4603,11 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-tailwindcss@0.2.7(prettier@2.8.8):
-    resolution: {integrity: sha512-jQopIOgjLpX+y8HeD56XZw7onupRTC0cw7eKKUimI7vhjkPF5/1ltW5LyqaPtSyc8HvEpvNZsvvsGFa2qpa59w==}
+  /prettier-plugin-tailwindcss@0.2.8(prettier@2.8.8):
+    resolution: {integrity: sha512-KgPcEnJeIijlMjsA6WwYgRs5rh3/q76oInqtMXBA/EMcamrcYJpyhtRhyX1ayT9hnHlHTuO8sIifHF10WuSDKg==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
-      '@prettier/plugin-php': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
       '@shufo/prettier-plugin-blade': '*'
@@ -4626,8 +4624,6 @@ packages:
       prettier-plugin-twig-melody: '*'
     peerDependenciesMeta:
       '@ianvs/prettier-plugin-sort-imports':
-        optional: true
-      '@prettier/plugin-php':
         optional: true
       '@prettier/plugin-pug':
         optional: true
