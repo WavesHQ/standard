@@ -7,7 +7,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@netlify/ipx": "^1.4.0",
-    "@types/react": "18.2.4",
+    "@types/react": "18.2.5",
     "@types/react-dom": "18.2.3",
     "follow-redirects": "^1.15.2",
     "next": "13.4.0",
