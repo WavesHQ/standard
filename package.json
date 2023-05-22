@@ -13,16 +13,16 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@birthdayresearch/sticky-prettier": "^0.5.13",
-    "@waveshq/standard-prettier": "workspace:*",
-    "@birthdayresearch/sticky-turbo": "^0.5.13"
+    "@birthdayresearch/sticky-prettier": "^0.5.14",
+    "@birthdayresearch/sticky-turbo": "^0.5.14",
+    "@waveshq/standard-prettier": "workspace:*"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
   },
   "prettier": "@waveshq/standard-prettier",
   "engines": {
-    "node": "^16.0.0",
-    "pnpm": ">=8.4.0"
+    "node": "^18.0.0 || ^16.0.0",
+    "pnpm": ">=8.5.0"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "name": "@waveshq/standard-api-fastify",
+  "version": "0.0.0",
+  "files": [
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "@birthdayresearch/sticky-typescript": "^0.5.14",
+    "@fastify/compress": "^6.3.0",
+    "@fastify/helmet": "^10.1.1",
+    "@nestjs/common": "^9.4.1",
+    "@nestjs/config": "^2.3.2",
+    "@nestjs/core": "^9.4.1",
+    "@nestjs/jwt": "^10.0.3",
+    "@nestjs/platform-fastify": "^9.4.1",
+    "@nestjs/terminus": "^9.2.2",
+    "@nestjs/throttler": "^4.0.0",
+    "@nestjs/cli": "^9.5.0",
+    "@nestjs/schematics": "^9.2.0",
+    "@nestjs/testing": "^9.4.1",
+    "async-mutex": "^0.4.0",
+    "cache-manager": "^5.2.1",
+    "helmet": "^7.0.0",
+    "nestjs-pino": "^3.2.0"
+  }
+}
