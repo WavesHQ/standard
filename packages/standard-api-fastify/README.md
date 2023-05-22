@@ -8,7 +8,7 @@ Standard API tools for scaffolding API using Fastify. Our choice of framework is
 
 This package also includes a `tsconfig.json` which is customized for web usage.
 
-| Package    | Description                                   |
-| ---------- |-----------------------------------------------|
-| NestJS      | Used as the base library.                     |
-| Fastify      | Fixes the Fastify version required by Nest.js |
+| Package | Description                                   |
+| ------- | --------------------------------------------- |
+| NestJS  | Used as the base library.                     |
+| Fastify | Fixes the Fastify version required by Nest.js |

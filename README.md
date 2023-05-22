@@ -41,10 +41,9 @@ with the same version tag.
 ### API
 
 | Package                       | Type        | Description                                                                          |
-|-------------------------------|-------------|--------------------------------------------------------------------------------------|
+| ----------------------------- | ----------- | ------------------------------------------------------------------------------------ |
 | @waveshq/standard-api-fastify | Boilerplate | Boilerplate for easier scaffolding of API projects. (Nest.js + Fastify + TypeScript) |
 | @waveshq/standard-api-express | Boilerplate | Boilerplate for easier scaffolding of API projects. (Nest.js + Express + TypeScript) |
-
 
 ### Renovate
 
