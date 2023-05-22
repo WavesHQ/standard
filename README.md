@@ -38,6 +38,13 @@ with the same version tag.
 | -------------------------- | ------ | -------------------------------------------------------- |
 | @waveshq/standard-prettier | Linter | Standardized eslint and prettier config for TS projects. |
 
+### API
+
+| Package                       | Type        | Description                                                                          |
+| ----------------------------- | ----------- | ------------------------------------------------------------------------------------ |
+| @waveshq/standard-api-fastify | Boilerplate | Boilerplate for easier scaffolding of API projects. (Nest.js + Fastify + TypeScript) |
+| @waveshq/standard-api-express | Boilerplate | Boilerplate for easier scaffolding of API projects. (Nest.js + Express + TypeScript) |
+
 ### Renovate
 
 Renovate configuration files are provided on this package. Select depending on which platform you need.
