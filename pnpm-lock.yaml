@@ -20,8 +20,8 @@ importers:
         specifier: ^0.5.14
         version: 0.5.14
       '@fastify/compress':
-        specifier: ^6.3.0
-        version: 6.3.0
+        specifier: ^6.4.0
+        version: 6.4.0
       '@fastify/helmet':
         specifier: ^10.1.1
         version: 10.1.1
@@ -95,8 +95,8 @@ importers:
         specifier: ^0.5.14
         version: 0.5.14
       '@fastify/compress':
-        specifier: ^6.3.0
-        version: 6.3.0
+        specifier: ^6.4.0
+        version: 6.4.0
       '@fastify/helmet':
         specifier: ^10.1.1
         version: 10.1.1
@@ -1230,14 +1230,14 @@ packages:
       fast-uri: 2.2.0
     dev: false
 
-  /@fastify/compress@6.3.0:
-    resolution: {integrity: sha512-lTvR7X1Fg+fDRkg2v3rfW9Mg1laK0UwB9Gi1M07HATE/hv5+7QI18B2vNfXp/5P4UXhrjiNumztdr9DeMS623w==}
+  /@fastify/compress@6.4.0:
+    resolution: {integrity: sha512-9zsljrMmv1mf/r+a+tQQbNJz6++jzsTUVGtJxNKnhd9LXNJNGwTJ3bndkcpJYiG/AoWHwsHGYjB13JnQhR/yNw==}
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
       fastify-plugin: 4.5.0
       into-stream: 6.0.0
       mime-db: 1.52.0
-      minipass: 5.0.0
+      minipass: 6.0.2
       peek-stream: 1.1.3
       pump: 3.0.0
       pumpify: 2.0.1
@@ -6002,11 +6002,6 @@ packages:
 
   /minipass@4.2.8:
     resolution: {integrity: sha512-fNzuVyifolSLFL4NzpF+wEF4qrgqaaKX0haXPQEdQ7NKAN+WecoKMHV09YcuL/DHxrUsYQOK3MiuDf7Ip2OXfQ==}
-    engines: {node: '>=8'}
-    dev: false
-
-  /minipass@5.0.0:
-    resolution: {integrity: sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==}
     engines: {node: '>=8'}
     dev: false
 
