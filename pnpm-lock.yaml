@@ -9,10 +9,10 @@ importers:
   .:
     devDependencies:
       '@birthdayresearch/sticky-prettier':
-        specifier: ^0.6.1
+        specifier: ^0.6.0
         version: 0.6.1
       '@birthdayresearch/sticky-turbo':
-        specifier: ^0.6.1
+        specifier: ^0.6.0
         version: 0.6.1
       '@waveshq/standard-prettier':
         specifier: workspace:*
@@ -21,7 +21,7 @@ importers:
   packages/standard-api-express:
     dependencies:
       '@birthdayresearch/sticky-typescript':
-        specifier: ^0.6.1
+        specifier: ^0.6.0
         version: 0.6.1
       '@fastify/compress':
         specifier: ^6.4.0
@@ -96,7 +96,7 @@ importers:
   packages/standard-api-fastify:
     dependencies:
       '@birthdayresearch/sticky-typescript':
-        specifier: ^0.6.1
+        specifier: ^0.6.0
         version: 0.6.1
       '@fastify/compress':
         specifier: ^6.4.0
