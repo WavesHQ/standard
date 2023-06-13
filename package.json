@@ -17,8 +17,8 @@
   },
   "prettier": "@waveshq/standard-prettier",
   "devDependencies": {
-    "@birthdayresearch/sticky-prettier": "^0.6.2",
-    "@birthdayresearch/sticky-turbo": "^0.6.2",
+    "@birthdayresearch/sticky-prettier": "^0.8.5",
+    "@birthdayresearch/sticky-turbo": "^0.8.5",
     "@waveshq/standard-prettier": "workspace:*"
   },
   "engines": {
