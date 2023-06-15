@@ -60,8 +60,8 @@ importers:
         specifier: ^9.4.3
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(@nestjs/platform-express@9.4.3)
       '@nestjs/throttler':
-        specifier: ^4.0.0
-        version: 4.0.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)
+        specifier: ^4.1.0
+        version: 4.1.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)
       '@node-saml/passport-saml':
         specifier: ^4.0.4
         version: 4.0.4
@@ -132,8 +132,8 @@ importers:
         specifier: ^9.4.3
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(@nestjs/platform-express@9.4.3)
       '@nestjs/throttler':
-        specifier: ^4.0.0
-        version: 4.0.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)
+        specifier: ^4.1.0
+        version: 4.1.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)
       async-mutex:
         specifier: ^0.4.0
         version: 0.4.0
@@ -1641,11 +1641,11 @@ packages:
       tslib: 2.5.3
     dev: false
 
-  /@nestjs/throttler@4.0.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13):
-    resolution: {integrity: sha512-2T2S/hFhxROa/PZRZhHWFkrukxg3T8Db32Y04m6U6j6N2XqFGSKXhjfIbORO8kk/S2jswa9oTX/K12E120tgaQ==}
+  /@nestjs/throttler@4.1.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13):
+    resolution: {integrity: sha512-W6F+ckalmJuJKOGdWkOynvXg8UJnpjWSdeTV0usvvma0W6ZYHbC2mLXAbUsNau5oRo8EnvXFTHtyyzMQVf56eQ==}
     peerDependencies:
-      '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0
-      '@nestjs/core': ^7.0.0 || ^8.0.0 || ^9.0.0
+      '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
+      '@nestjs/core': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
       reflect-metadata: ^0.1.13
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
