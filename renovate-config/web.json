@@ -55,6 +55,10 @@
       "groupName": "@birthdayresearch/sticky"
     },
     {
+      "matchPackagePatterns": ["^@stickyjs"],
+      "groupName": "@stickjs"
+    },
+    {
       "matchPackagePatterns": ["^@waveshq/standard-"],
       "groupName": "@waveshq/standard"
     },
