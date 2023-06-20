@@ -26,6 +26,9 @@ importers:
       '@fastify/helmet':
         specifier: ^10.1.1
         version: 10.1.1
+      '@nestjs/cache-manager':
+        specifier: ^2.0.0
+        version: 2.0.0(@nestjs/common@10.0.2)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/cli':
         specifier: ^10.0.3
         version: 10.0.3
@@ -101,6 +104,9 @@ importers:
       '@fastify/helmet':
         specifier: ^10.1.1
         version: 10.1.1
+      '@nestjs/cache-manager':
+        specifier: ^2.0.0
+        version: 2.0.0(@nestjs/common@10.0.2)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/cli':
         specifier: ^10.0.3
         version: 10.0.3
@@ -1344,6 +1350,20 @@ packages:
   /@lukeed/csprng@1.1.0:
     resolution: {integrity: sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==}
     engines: {node: '>=8'}
+    dev: false
+
+  /@nestjs/cache-manager@2.0.0(@nestjs/common@10.0.2)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-DSBAPQhgG7mRZZSqzqFXoZKtrT/ehlcEvXBpYVd6i42XdM0fLdmp8+6usev12POOkZTLMxRiW87J8U9cGjaExg==}
+    peerDependencies:
+      '@nestjs/common': ^9.0.0 || ^10.0.0
+      cache-manager: <=5
+      reflect-metadata: ^0.1.12
+      rxjs: ^7.0.0
+    dependencies:
+      '@nestjs/common': 10.0.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      cache-manager: 5.2.3
+      reflect-metadata: 0.1.13
+      rxjs: 7.8.1
     dev: false
 
   /@nestjs/cli@10.0.3:
