@@ -22,7 +22,7 @@
     "@waveshq/standard-prettier": "workspace:*"
   },
   "engines": {
-    "node": "^18.0.0 || ^16.0.0",
+    "node": ">=18.0.0",
     "pnpm": ">=8.6.3"
   }
 }
