@@ -351,8 +351,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       react-icons:
-        specifier: ^4.10.0
-        version: 4.10.0(react@18.2.0)
+        specifier: ^4.10.1
+        version: 4.10.1(react@18.2.0)
       react-redux:
         specifier: ^8.1.1
         version: 8.1.1(@types/react-dom@18.2.6)(@types/react@18.2.13)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
@@ -6872,8 +6872,8 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-icons@4.10.0(react@18.2.0):
-    resolution: {integrity: sha512-SoBQp5sP2NgJgnzIoW/0foYRzuB/dlbfaFaFv7N5c7Mk+WvzAIKwvld7LTPLhRo+UQA5oCzdtm9h6oBKTbuKCA==}
+  /react-icons@4.10.1(react@18.2.0):
+    resolution: {integrity: sha512-/ngzDP/77tlCfqthiiGNZeYFACw85fUjZtLbedmJ5DTlNDIwETxhwBzdOJ21zj4iJdvc0J3y7yOsX3PpxAJzrw==}
     peerDependencies:
       react: '*'
     dependencies:
