@@ -17,12 +17,12 @@
   },
   "prettier": "@waveshq/standard-prettier",
   "devDependencies": {
-    "@stickyjs/prettier": "^1.2.0",
-    "@stickyjs/turbo": "^1.2.0",
+    "@stickyjs/prettier": "^1.2.1",
+    "@stickyjs/turbo": "^1.2.1",
     "@waveshq/standard-prettier": "workspace:*"
   },
   "engines": {
     "node": ">=18.0.0",
-    "pnpm": ">=8.6.3"
+    "pnpm": ">=8.6.5"
   }
 }
