@@ -333,8 +333,8 @@ importers:
         specifier: ^1.15.2
         version: 1.15.2(debug@4.3.4)
       million:
-        specifier: ^2.4.8
-        version: 2.4.8
+        specifier: ^2.4.9
+        version: 2.4.9
       next:
         specifier: 13.4.7
         version: 13.4.7(@babel/core@7.22.5)(react-dom@18.2.0)(react@18.2.0)
@@ -5977,8 +5977,8 @@ packages:
       braces: 3.0.2
       picomatch: 2.3.1
 
-  /million@2.4.8:
-    resolution: {integrity: sha512-+Aw30L478AUi63gYno78RmQ5S2ZLvrfITHJqxaoM+J32Q2kC0kJWzS2H1UxL8E5jnnhTY8VVf6Q1olgcgqGqwA==}
+  /million@2.4.9:
+    resolution: {integrity: sha512-5R2NgaGhSI6ASP0oVEZZvCF+xoYBnfKBFVCOtO3hedbhNXKIe3A/++1WV7ddr62yA4fbg1xfR1Lhs4Srn90aGw==}
     dependencies:
       '@babel/core': 7.22.5
       '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.5)
