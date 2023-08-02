@@ -17,8 +17,8 @@
   },
   "prettier": "@waveshq/standard-prettier",
   "devDependencies": {
-    "@stickyjs/prettier": "^1.2.4",
-    "@stickyjs/turbo": "^1.2.4",
+    "@stickyjs/prettier": "^1.2.5",
+    "@stickyjs/turbo": "^1.2.5",
     "@waveshq/standard-prettier": "workspace:*"
   },
   "engines": {
