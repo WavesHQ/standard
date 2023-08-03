@@ -324,8 +324,8 @@ importers:
   packages/standard-web:
     dependencies:
       '@netlify/ipx':
-        specifier: ^1.4.1
-        version: 1.4.1
+        specifier: ^1.4.2
+        version: 1.4.2
       '@reduxjs/toolkit':
         specifier: ^1.9.5
         version: 1.9.5(react-redux@8.1.1)(react@18.2.0)
@@ -1711,8 +1711,8 @@ packages:
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/ipx@1.4.1:
-    resolution: {integrity: sha512-wOuemSttKv8h4XMC9+RNNv21tn0uIC5avvnwmuFOyPOGzI1nsip01UkxS5lHRX+KX7TdIQxwBzSqde15h/jdRA==}
+  /@netlify/ipx@1.4.2:
+    resolution: {integrity: sha512-BWZn793fArFFqcRdl4NbsSwvZyaGkelOEskpgU2MziJXeho+dH/dOC3iLPwazvbYpMmXiFbfNOn+u5izXvSouw==}
     dependencies:
       '@netlify/functions': 1.6.0
       etag: 1.8.1
