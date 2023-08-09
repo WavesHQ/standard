@@ -345,8 +345,8 @@ importers:
         specifier: 13.4.13
         version: 13.4.13(@babel/core@7.22.5)(react-dom@18.2.0)(react@18.2.0)
       next-sitemap:
-        specifier: ^4.1.8
-        version: 4.1.8(next@13.4.13)
+        specifier: ^4.2.2
+        version: 4.2.2(next@13.4.13)
       nextjs-progressbar:
         specifier: ^0.0.16
         version: 0.0.16(next@13.4.13)(react@18.2.0)
@@ -1235,11 +1235,6 @@ packages:
       eslint-visitor-keys: 3.4.2
     dev: false
 
-  /@eslint-community/regexpp@4.5.1:
-    resolution: {integrity: sha512-Z5ba73P98O1KUYCCJTUeVpja9RcGoMdncZ6T49FCUl2lN38JtCJ+3WgIDBv0AuY4WChU5PmtJmOCTlN6FZTFKQ==}
-    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
-    dev: false
-
   /@eslint-community/regexpp@4.6.2:
     resolution: {integrity: sha512-pPTNuaAG3QMH+buKyBIGJs3g/S5y0caxw0ygM3YyE6yJFySwiGGSzA+mM3KJ8QQvzeLh3blwgSonkFjgQdxzMw==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
@@ -1745,10 +1740,6 @@ packages:
 
   /@next/env@13.4.13:
     resolution: {integrity: sha512-fwz2QgVg08v7ZL7KmbQBLF2PubR/6zQdKBgmHEl3BCyWTEDsAQEijjw2gbFhI1tcKfLdOOJUXntz5vZ4S0Polg==}
-    dev: false
-
-  /@next/env@13.4.7:
-    resolution: {integrity: sha512-ZlbiFulnwiFsW9UV1ku1OvX/oyIPLtMk9p/nnvDSwI0s7vSoZdRtxXNsaO+ZXrLv/pMbXVGq4lL8TbY9iuGmVw==}
     dev: false
 
   /@next/eslint-plugin-next@13.4.13:
@@ -2501,7 +2492,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@eslint-community/regexpp': 4.5.1
+      '@eslint-community/regexpp': 4.6.2
       '@typescript-eslint/parser': 5.60.1(eslint@8.46.0)(typescript@4.9.5)
       '@typescript-eslint/scope-manager': 5.60.1
       '@typescript-eslint/type-utils': 5.60.1(eslint@8.46.0)(typescript@4.9.5)
@@ -6311,15 +6302,15 @@ packages:
       pino-http: 8.3.3
     dev: false
 
-  /next-sitemap@4.1.8(next@13.4.13):
-    resolution: {integrity: sha512-XAXpBHX4o89JfMgvrm0zimlZwpu2iBPXHpimJMUrqOZSc4C2oB1Lv89mxuVON9IE8HOezaM+w4GjJxcYCuGPTQ==}
+  /next-sitemap@4.2.2(next@13.4.13):
+    resolution: {integrity: sha512-cz5PyFibUNSJSXOY5mllq5TW0OH6SGG+8GJ9fR9pl1Thu4rvkDye+0N0790h+9kQihDStuVw2xfwC3qihDkflA==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
       next: '*'
     dependencies:
       '@corex/deepmerge': 4.0.43
-      '@next/env': 13.4.7
+      '@next/env': 13.4.13
       fast-glob: 3.2.12
       minimist: 1.2.8
       next: 13.4.13(@babel/core@7.22.5)(react-dom@18.2.0)(react@18.2.0)
