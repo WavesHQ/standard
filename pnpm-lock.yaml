@@ -336,8 +336,8 @@ importers:
   packages/standard-web:
     dependencies:
       '@netlify/ipx':
-        specifier: ^1.4.2
-        version: 1.4.2
+        specifier: ^1.4.3
+        version: 1.4.3
       '@reduxjs/toolkit':
         specifier: ^1.9.5
         version: 1.9.5(react-redux@8.1.2)(react@18.2.0)
@@ -2999,15 +2999,15 @@ packages:
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/ipx@1.4.2:
-    resolution: {integrity: sha512-BWZn793fArFFqcRdl4NbsSwvZyaGkelOEskpgU2MziJXeho+dH/dOC3iLPwazvbYpMmXiFbfNOn+u5izXvSouw==}
+  /@netlify/ipx@1.4.3:
+    resolution: {integrity: sha512-h12ZyvPk02Jq2MdnXAtc1mywVPG7naaV03KrMYNrEYdJykwZ3x873uFTU9kvj4amf/Qu9p6M+fl5NcQC6YFndg==}
     dependencies:
       '@netlify/functions': 1.6.0
       etag: 1.8.1
       fs-extra: 11.1.1
       ipx: 1.2.0
       micromatch: 4.0.5
-      mkdirp: 1.0.4
+      mkdirp: 3.0.1
       murmurhash: 2.0.1
       node-fetch: 2.6.12
       ufo: 1.1.2
@@ -8206,6 +8206,12 @@ packages:
 
   /mkdirp@2.1.6:
     resolution: {integrity: sha512-+hEnITedc8LAtIP9u3HJDFIdcLV2vXP33sqLLIzkv1Db1zO/1OxbvYf0Y1OC/S/Qo5dxHXepofhmxL02PsKe+A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: false
+
+  /mkdirp@3.0.1:
+    resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
     dev: false
