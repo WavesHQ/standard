@@ -10,7 +10,7 @@
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "follow-redirects": "^1.15.2",
-    "million": "^2.5.1",
+    "million": "^2.5.9",
     "next": "13.4.13",
     "next-sitemap": "^4.2.2",
     "nextjs-progressbar": "^0.0.16",
