@@ -5,6 +5,7 @@
     "tsconfig.json"
   ],
   "dependencies": {
+    "@compodoc/compodoc": "^1.1.21",
     "@fastify/compress": "^6.4.0",
     "@fastify/helmet": "^11.0.0",
     "@nestjs/cache-manager": "^2.1.0",
