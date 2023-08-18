@@ -28,5 +28,7 @@ module.exports = {
       },
     ],
     curly: ["error", "all"],
+    "object-curly-spacing": ["error", "always"],
+    "nonblock-statement-body-position": ["error", "below"],
   },
 };
