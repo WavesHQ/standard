@@ -27,6 +27,6 @@ module.exports = {
         aspects: ["invalidHref", "preferButton"],
       },
     ],
-    "curly": ["error", "all"],
+    curly: ["error", "all"],
   },
 };
