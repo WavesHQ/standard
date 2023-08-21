@@ -31,43 +31,43 @@ importers:
         version: 11.0.0
       '@nestjs/cache-manager':
         specifier: ^2.1.0
-        version: 2.1.0(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        version: 2.1.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/cli':
         specifier: ^10.1.12
         version: 10.1.12(@swc/cli@0.1.62)(@swc/core@1.3.78)
       '@nestjs/common':
-        specifier: ^10.1.3
-        version: 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        specifier: ^10.2.0
+        version: 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/config':
         specifier: ^3.0.0
-        version: 3.0.0(@nestjs/common@10.1.3)(reflect-metadata@0.1.13)
+        version: 3.0.0(@nestjs/common@10.2.0)(reflect-metadata@0.1.13)
       '@nestjs/core':
-        specifier: ^10.1.3
-        version: 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        specifier: ^10.2.0
+        version: 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/jwt':
         specifier: ^10.1.0
-        version: 10.1.0(@nestjs/common@10.1.3)
+        version: 10.1.0(@nestjs/common@10.2.0)
       '@nestjs/passport':
         specifier: ^10.0.0
-        version: 10.0.0(@nestjs/common@10.1.3)(passport@0.6.0)
+        version: 10.0.0(@nestjs/common@10.2.0)(passport@0.6.0)
       '@nestjs/platform-express':
-        specifier: ^10.1.3
-        version: 10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)
+        specifier: ^10.2.0
+        version: 10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)
       '@nestjs/schematics':
         specifier: ^10.0.2
         version: 10.0.2(typescript@4.9.5)
       '@nestjs/swagger':
         specifier: ^7.1.8
-        version: 7.1.8(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13)
+        version: 7.1.8(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13)
       '@nestjs/terminus':
         specifier: ^10.0.1
-        version: 10.0.1(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        version: 10.0.1(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/testing':
-        specifier: ^10.1.3
-        version: 10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(@nestjs/platform-express@10.1.3)
+        specifier: ^10.2.0
+        version: 10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(@nestjs/platform-express@10.2.0)
       '@nestjs/throttler':
         specifier: ^4.2.1
-        version: 4.2.1(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13)
+        version: 4.2.1(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13)
       '@node-saml/passport-saml':
         specifier: ^4.0.4
         version: 4.0.4
@@ -96,8 +96,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0
       nestjs-pino:
-        specifier: ^3.3.0
-        version: 3.3.0(@nestjs/common@10.1.3)(pino-http@8.4.0)
+        specifier: ^3.4.0
+        version: 3.4.0(@nestjs/common@10.2.0)(pino-http@8.4.0)
       passport:
         specifier: ^0.6.0
         version: 0.6.0
@@ -124,40 +124,40 @@ importers:
         version: 11.0.0
       '@nestjs/cache-manager':
         specifier: ^2.1.0
-        version: 2.1.0(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        version: 2.1.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/cli':
         specifier: ^10.1.12
         version: 10.1.12(@swc/cli@0.1.62)(@swc/core@1.3.78)
       '@nestjs/common':
-        specifier: ^10.1.3
-        version: 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        specifier: ^10.2.0
+        version: 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/config':
         specifier: ^3.0.0
-        version: 3.0.0(@nestjs/common@10.1.3)(reflect-metadata@0.1.13)
+        version: 3.0.0(@nestjs/common@10.2.0)(reflect-metadata@0.1.13)
       '@nestjs/core':
-        specifier: ^10.1.3
-        version: 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        specifier: ^10.2.0
+        version: 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/jwt':
         specifier: ^10.1.0
-        version: 10.1.0(@nestjs/common@10.1.3)
+        version: 10.1.0(@nestjs/common@10.2.0)
       '@nestjs/platform-fastify':
-        specifier: ^10.1.3
-        version: 10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)
+        specifier: ^10.2.0
+        version: 10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)
       '@nestjs/schematics':
         specifier: ^10.0.2
         version: 10.0.2(typescript@4.9.5)
       '@nestjs/swagger':
         specifier: ^7.1.8
-        version: 7.1.8(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13)
+        version: 7.1.8(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13)
       '@nestjs/terminus':
         specifier: ^10.0.1
-        version: 10.0.1(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        version: 10.0.1(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/testing':
-        specifier: ^10.1.3
-        version: 10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(@nestjs/platform-express@10.1.3)
+        specifier: ^10.2.0
+        version: 10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(@nestjs/platform-express@10.2.0)
       '@nestjs/throttler':
         specifier: ^4.2.1
-        version: 4.2.1(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13)
+        version: 4.2.1(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13)
       '@stickyjs/typescript':
         specifier: ^1.3.1
         version: 1.3.1(typescript@4.9.5)
@@ -177,8 +177,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0
       nestjs-pino:
-        specifier: ^3.3.0
-        version: 3.3.0(@nestjs/common@10.1.3)(pino-http@8.4.0)
+        specifier: ^3.4.0
+        version: 3.4.0(@nestjs/common@10.2.0)(pino-http@8.4.0)
       pino-pretty:
         specifier: ^10.2.0
         version: 10.2.0
@@ -186,47 +186,47 @@ importers:
   packages/standard-defichain-jellyfishsdk:
     dependencies:
       '@defichain/jellyfish-address':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/jellyfish-api-core':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/jellyfish-network':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/jellyfish-testing':
-        specifier: ^3.34.0
-        version: 3.34.0(@types/tar-fs@2.0.1)(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(@types/tar-fs@2.0.1)(defichain@3.37.0)
       '@defichain/jellyfish-transaction':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/jellyfish-transaction-builder':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/jellyfish-wallet':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/jellyfish-wallet-encrypted':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/jellyfish-wallet-mnemonic':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/playground-api-client':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/testcontainers':
-        specifier: ^3.34.0
-        version: 3.34.0(@types/tar-fs@2.0.1)(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(@types/tar-fs@2.0.1)(defichain@3.37.0)
       '@defichain/whale-api-client':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       '@defichain/whale-api-wallet':
-        specifier: ^3.34.0
-        version: 3.34.0(defichain@3.34.0)
+        specifier: ^3.37.0
+        version: 3.37.0(defichain@3.37.0)
       defichain:
-        specifier: ^3.34.0
-        version: 3.34.0
+        specifier: ^3.37.0
+        version: 3.37.0
 
   packages/standard-desktop:
     dependencies:
@@ -303,8 +303,8 @@ importers:
         specifier: ^8.0.3
         version: 8.0.3
       lint-staged:
-        specifier: ^14.0.0
-        version: 14.0.0
+        specifier: ^14.0.1
+        version: 14.0.1
       prettier:
         specifier: ^3.0.2
         version: 3.0.2
@@ -336,8 +336,8 @@ importers:
         specifier: ^8.0.3
         version: 8.0.3
       lint-staged:
-        specifier: ^14.0.0
-        version: 14.0.0
+        specifier: ^14.0.1
+        version: 14.0.1
       prettier:
         specifier: ^3.0.2
         version: 3.0.2
@@ -435,8 +435,8 @@ importers:
         specifier: ^8.0.3
         version: 8.0.3
       lint-staged:
-        specifier: ^14.0.0
-        version: 14.0.0
+        specifier: ^14.0.1
+        version: 14.0.1
       next:
         specifier: 13.4.19
         version: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -1651,7 +1651,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.4.5(@babel/core@7.22.10)
       babel-plugin-polyfill-corejs3: 0.8.3(@babel/core@7.22.10)
       babel-plugin-polyfill-regenerator: 0.5.2(@babel/core@7.22.10)
-      core-js-compat: 3.32.0
+      core-js-compat: 3.32.1
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -1818,210 +1818,210 @@ packages:
     resolution: {integrity: sha512-N8uEMrMPL0cu/bdboEWpQYb/0i2K5Qn8eCsxzOmxSggJbbQte7ljMRoXm917AbntqTGOzdTu+vP3KOOzoC70HQ==}
     dev: false
 
-  /@defichain/jellyfish-address@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-7Jqsv1LEGJEiRzxhMQA0QB+A74gIyGcPE/w8qV/Dv5EMyfXPKFyZmtAcrevpmAOdeKuFNZ7XGuI8V2LQlAgUxA==}
+  /@defichain/jellyfish-address@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-5YQUEd1i5B77SRhG4jUDpThq0e70ezMe0RmTuwFzOibG6nIJ+crkvK0gRoVu1CCvxkiJGZ9sLNJ8oD/P5T/sfA==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-crypto': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-network': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-transaction': 3.34.0(defichain@3.34.0)
+      '@defichain/jellyfish-crypto': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-network': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-transaction': 3.37.0(defichain@3.37.0)
       bech32: 2.0.0
       bs58: 4.0.1
-      defichain: 3.34.0
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/jellyfish-api-core@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-4p4a3auSYVDREN/RAR+axuYi+bDD5/yAQSmM/IpheZw4MayBX2USY4AS2YivYg3qqTq+E3HJXzjgzUfa3BDGqA==}
+  /@defichain/jellyfish-api-core@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-ZQQ/0uMif4F/qv5uTvG075uPpdDodTHdnfwpAD/OBzYoOpSkvTfBgEx+n+FBv++wb7tvMaWvTQAX+oV0C6mfVw==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-json': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-json': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/jellyfish-api-jsonrpc@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-yE7WsHFGzx8/Bztt1+Oitf1lvTqmNhmItzMZqE2aRtFAXw/SUxGaqtWa7MbHweyoHzGscI+9b/ixbWD71Pd7YA==}
+  /@defichain/jellyfish-api-jsonrpc@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-2KbpMdGSPwhECE+h3iIQepL33X2CU17OKmY5HW1CEEnlTXSNTv636ul5FANBGeoPg/2RE6wFESbPveMcwuVUVQ==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-api-core': 3.34.0(defichain@3.34.0)
+      '@defichain/jellyfish-api-core': 3.37.0(defichain@3.37.0)
       abort-controller: 3.0.0
       cross-fetch: 3.1.8
-      defichain: 3.34.0
+      defichain: 3.37.0
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/jellyfish-buffer@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-fUiyE0dhojyXcUtKRXmCImVAOgLLONOAll+d3XRTVmfKBrqZ+AeH8dVC60iqaJxAPnsxZqVrOM6uakIJt15cKQ==}
+  /@defichain/jellyfish-buffer@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-7r+gKzkO/W+LwnYSlNAx39CT6YA6TBESc8MuePS3TrvxMz0Dmy1GstBm/PRJ4yfknlq5gww0hN9+5EAcyvxE9w==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
       bignumber.js: 9.1.1
       bn.js: 5.2.1
-      defichain: 3.34.0
+      defichain: 3.37.0
       smart-buffer: 4.2.0
     dev: false
 
-  /@defichain/jellyfish-crypto@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-uPlic7tgme4155EDHOcY78ImPJ9eqbww7J92CtikbL52ydroBHw9tm4zLR3+wMpuvFd/5bdcPMNxQ1jQKoomUg==}
+  /@defichain/jellyfish-crypto@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-pjgNqod3LCOKPYcpEXBtCDyNWwJ3suKe1+QbDSHZM4ErQqevXWLoL/MoDte3J/qD9aYjmg6EnsG5g7vlMv4s4A==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
       bech32: 2.0.0
       bip66: 1.1.5
       browserify-aes: 1.2.0
       bs58: 4.0.1
       create-hash: 1.2.0
-      defichain: 3.34.0
+      defichain: 3.37.0
       keccak: 3.0.3
       randombytes: 2.1.0
       tiny-secp256k1: 1.1.6
       wif: 2.0.6
     dev: false
 
-  /@defichain/jellyfish-json@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-thYq4u68s6RpfAKEveqLN1tzr6tVpL99Zkr9P/mQHNkhx+yRwewYSH3cbAh0rZbozrKRpcUzYPHV/i8/yRjI3A==}
+  /@defichain/jellyfish-json@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-a45qNCQpZaFOLUhVFf0ikUUnBKR+kzkkQQbaC0rpxNxCjOsDU3jgA/vBHQYa1E9cqoemosksRBerXB3lkAwxoA==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
       '@types/lossless-json': 1.0.1
       bignumber.js: 9.1.1
-      defichain: 3.34.0
+      defichain: 3.37.0
       lossless-json: 1.0.5
     dev: false
 
-  /@defichain/jellyfish-network@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-sm51uY+aZFYZK8gNaMd3i3zzWsoAfaig6Hi3yd8YiG003Cb7FFtKBkOc6bMODTkjQYm7xBhv3QEmIc42LZVE8Q==}
+  /@defichain/jellyfish-network@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-dpo7iDLOqyJx14hOAHgu0G0aSlNPjET4xN4kGT2PHShLDeJj98J2+aJI4Wid0Sz+2+qZ/QVJWZOpKKbaZq7eLg==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
       bignumber.js: 9.1.1
-      defichain: 3.34.0
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/jellyfish-testing@3.34.0(@types/tar-fs@2.0.1)(defichain@3.34.0):
-    resolution: {integrity: sha512-tW81McMbwgXZajAlU6Xq4166GPDPThXCjCENE5hNANa/SG2epCyxFGDDG7PWXnxaTwg6UHsIk2oTjH2/er70Zw==}
+  /@defichain/jellyfish-testing@3.37.0(@types/tar-fs@2.0.1)(defichain@3.37.0):
+    resolution: {integrity: sha512-C/MCvc8vgI+1t+LdcfLCVqaUCqUhoW3nmyw05lWVIs1yuqn+d65zF8nJYx4qGL90yrXOVpL1nQQjsI0U7O0NSg==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-api-jsonrpc': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-crypto': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-network': 3.34.0(defichain@3.34.0)
-      '@defichain/testcontainers': 3.34.0(@types/tar-fs@2.0.1)(defichain@3.34.0)
+      '@defichain/jellyfish-api-jsonrpc': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-crypto': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-network': 3.37.0(defichain@3.37.0)
+      '@defichain/testcontainers': 3.37.0(@types/tar-fs@2.0.1)(defichain@3.37.0)
       cross-fetch: 3.1.8
-      defichain: 3.34.0
+      defichain: 3.37.0
     transitivePeerDependencies:
       - '@types/tar-fs'
       - encoding
       - supports-color
     dev: false
 
-  /@defichain/jellyfish-transaction-builder@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-MnVZ525OaEFtUjm+MefI8l4rpzvWt+ygSgZS6wOaZckBIIaPOkVgYbcdx+fKkOE2i/6wFwKVE35tQ2OVwOf3Dg==}
+  /@defichain/jellyfish-transaction-builder@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-EymFmrnLXuh8vGiA1Oa/bsPpw0E1i+hAlv134x1Cx/kfOX+NS57YfccpS5l6C+A9hXLb5ZUSre4IqVrVvFZNxg==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-crypto': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-transaction': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-transaction-signature': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-crypto': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-transaction': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-transaction-signature': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/jellyfish-transaction-signature@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-PYB6ajwH+FhpjnJDRHzrrdGcm0GYR+9EcYM82tqRiiP5EW0krbsx0CJN2Q56BXLdqXrIa3YOdR5Pge6qwNyUHQ==}
+  /@defichain/jellyfish-transaction-signature@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-7fczgJjfr9EVWwnSPqORyTO8ouULMrVY38vb3aMniB/I89UNvrW0yUV4SHaJLTMWxEEkjzCZvM24LzdOr+M7IQ==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-buffer': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-crypto': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-transaction': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-buffer': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-crypto': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-transaction': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/jellyfish-transaction@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-NMyhDjdnK1JdZUGHivumIWmTcCvKylbmodg9Pv8tIY6QgN6VXl++AGUvgXnJH4iAwpPiCBTP6JaglXm2CmcfeA==}
+  /@defichain/jellyfish-transaction@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-KngEkra5ZpERoMjBI62hRRqul+gqdSGI5m7ZFqEOd4MAlzh59D6zX/cxnhx/V2HEayhgEhlnM/bwwsNYLS5SxQ==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-buffer': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-crypto': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-buffer': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-crypto': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/jellyfish-wallet-encrypted@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-ztTFEDpz7/42BFJ6DJCOdMS9mTFBObusnrdV7liSiXuZ1k2MWVR79KDBplrTt4fg+B9raYdM3w7bkOKTO7RdIw==}
+  /@defichain/jellyfish-wallet-encrypted@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-vkJZ5oRDHPeELuko9jPu1wc6ZZAAt4c//EFgquGHUiB0o3Zf+kxGIg4P95e3+y/f4Yws1wAwf1AkZ1BpyAwYKw==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-wallet-mnemonic': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-wallet-mnemonic': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
       scrypt-js: 3.0.1
     dev: false
 
-  /@defichain/jellyfish-wallet-mnemonic@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-FKjQJS99R3Z93lyb3eUrgrunzoitT8WmmZr/dlZWGNHCq8CRdfswQ8QsPFDBX/2f770SsRK+JxGArMn1hbyqnQ==}
+  /@defichain/jellyfish-wallet-mnemonic@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-XWbSR/WYGP/SNQ4HJRto17KjBEUgs1JNnLV2tzwK8kL6CjRsilfcL8oMAt8whmjvEZHsk4Jo/9OyD8J60SD2rA==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-transaction': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-wallet': 3.34.0(defichain@3.34.0)
+      '@defichain/jellyfish-transaction': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-wallet': 3.37.0(defichain@3.37.0)
       bip32: 2.0.6
       bip39: 3.1.0
       create-hmac: 1.1.7
-      defichain: 3.34.0
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/jellyfish-wallet@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-WxUnKJcNmnPHqwm9ZP4HM0WCLILXhz6Y5DEJjtA8iSxZEy93xMYV8hijMxNxyWPBrGnBVrauBE/jjbz/204lag==}
+  /@defichain/jellyfish-wallet@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-12dSaKiKKKOP9e/uIVuwU8xLUUIFt7Deb+ZTdg6P+Oumyg8+y6CWPX8GbkZteY6TujU5nqcsn1XJ1O6K+gwKPg==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-address': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-crypto': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-network': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-transaction': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-transaction-builder': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-transaction-signature': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-address': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-crypto': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-network': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-transaction': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-transaction-builder': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-transaction-signature': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
     dev: false
 
-  /@defichain/ocean-api-client@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-aZQr7UjMh3dU7QMZiDfMeM1HFakH2O2gIXQtgHB9TLZfPdhP3XsmjDZ5PJr7F0s3p4x/Vp0Asft3kquLtgvwMg==}
+  /@defichain/ocean-api-client@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-z9TQaVZCb2/d0MBkiO9x4ZxLO5mAF+LDJ007FQYoIV/4b+Ol4NrJ3bqcSMcdXnSF8ikc0diVbkC3cWgy+D4iAw==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
       abort-controller: 3.0.0
       cross-fetch: 3.1.8
-      defichain: 3.34.0
+      defichain: 3.37.0
       url-search-params-polyfill: 8.1.1
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/playground-api-client@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-K6qLnLZB+w9h9zlydcE8DdK83uMM+q+3FxVr42j+XODvp7xNjqVKvM8ZR0iyx2W4XIYp+7xd4HWv/udxvhQBhw==}
+  /@defichain/playground-api-client@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-7RTSqfMmiHnkGhfm+AhrBID1+x2SzWSxPWuEljgDLiQbCSzND74Tls4k9AzMK/t7EVKGFt469CO3OTkCijzjkQ==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-api-core': 3.34.0(defichain@3.34.0)
-      '@defichain/ocean-api-client': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-api-core': 3.37.0(defichain@3.37.0)
+      '@defichain/ocean-api-client': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/testcontainers@3.34.0(@types/tar-fs@2.0.1)(defichain@3.34.0):
-    resolution: {integrity: sha512-PJAWXGgb50UaY2VFi/Lewz85+RCTJKpLaTmAQYYsmi6r6k64NSKFUxuzdqXKptaJ0eDOrFagcDdm1TrBjibjpA==}
+  /@defichain/testcontainers@3.37.0(@types/tar-fs@2.0.1)(defichain@3.37.0):
+    resolution: {integrity: sha512-QyswFtsnbPnvAATcXcGJ3MzUpdw2fVzL5FNpCT7GGESQW0QGMNhzRsSAc+nDb200hX9GP5WSbfRcYHVwOev0gA==}
     peerDependencies:
       '@types/tar-fs': ^2.0.1
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-network': 3.34.0(defichain@3.34.0)
+      '@defichain/jellyfish-network': 3.37.0(defichain@3.37.0)
       '@types/tar-fs': 2.0.1
       cross-fetch: 3.1.8
-      defichain: 3.34.0
+      defichain: 3.37.0
       dockerode: 3.3.5
       tar-fs: 2.1.1
       testcontainers: 9.12.0
@@ -2031,30 +2031,30 @@ packages:
       - supports-color
     dev: false
 
-  /@defichain/whale-api-client@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-SrRf6mjz11Yo/cg9QuXMXMHPW+iWqYIg8XcTM9dPv6ln6bErCdsQGAiOO8NXStrrNNTcLy0GKjcY2G9iKxBn5Q==}
+  /@defichain/whale-api-client@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-0HuwlAa0+/vHL+LRQevpAEeWwTmeTIWVpL9WbCy1qUO7i8JizcVTmhFjXQLwSvhZjBnMbk5TeHMHIcE1PYo82Q==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-api-core': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-api-jsonrpc': 3.34.0(defichain@3.34.0)
+      '@defichain/jellyfish-api-core': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-api-jsonrpc': 3.37.0(defichain@3.37.0)
       abort-controller: 3.0.0
       cross-fetch: 3.1.8
-      defichain: 3.34.0
+      defichain: 3.37.0
       url-search-params-polyfill: 8.1.1
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@defichain/whale-api-wallet@3.34.0(defichain@3.34.0):
-    resolution: {integrity: sha512-320D/Rg/cSLmwRDPQP6QDVSZh+4nNwPZCBKgYWLACGYPccb6c15w2FYaSZNYAvAs3ewL3IDzKJDPR0qVyNhpKQ==}
+  /@defichain/whale-api-wallet@3.37.0(defichain@3.37.0):
+    resolution: {integrity: sha512-pk5Yrb9QApzsI6up/lFRukGVRD2rbgg+36JI1sgcNwOTUGvEwgYfonSkA/S4I7x25uR+qQGQgJHqbBp2Zd874Q==}
     peerDependencies:
-      defichain: ^3.34.0
+      defichain: ^3.37.0
     dependencies:
-      '@defichain/jellyfish-transaction-builder': 3.34.0(defichain@3.34.0)
-      '@defichain/jellyfish-wallet': 3.34.0(defichain@3.34.0)
-      '@defichain/whale-api-client': 3.34.0(defichain@3.34.0)
-      defichain: 3.34.0
+      '@defichain/jellyfish-transaction-builder': 3.37.0(defichain@3.37.0)
+      '@defichain/jellyfish-wallet': 3.37.0(defichain@3.37.0)
+      '@defichain/whale-api-client': 3.37.0(defichain@3.37.0)
+      defichain: 3.37.0
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -2492,7 +2492,7 @@ packages:
       os-filter-obj: 2.0.0
     dev: false
 
-  /@nestjs/cache-manager@2.1.0(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+  /@nestjs/cache-manager@2.1.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
     resolution: {integrity: sha512-9kep3a8Mq5cMuXN/anGhSYc0P48CRBXk5wyJJRBFxhNkCH8AIzZF4CASGVDIEMmm3OjVcEUHojjyJwCODS17Qw==}
     peerDependencies:
       '@nestjs/common': ^9.0.0 || ^10.0.0
@@ -2501,8 +2501,8 @@ packages:
       reflect-metadata: ^0.1.12
       rxjs: ^7.0.0
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       cache-manager: 5.2.3
       reflect-metadata: 0.1.13
       rxjs: 7.8.1
@@ -2551,8 +2551,8 @@ packages:
       - webpack-cli
     dev: false
 
-  /@nestjs/common@10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-xSyXBwgcmiFwQqek1Urw/AL3pRPq9bp/tpgfTxmnJg3gP6XNUbx1fDr0de50irXgZYzFKfVFo9ptC3b2du5YKA==}
+  /@nestjs/common@10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-QhoIaekEfXJ48IHdp9pBsZho464XoW8LRNid61Qncxx90qWCbe7oT1tswlT8kxn1HxsqEqZ8sXGY3ozLxZeVJQ==}
     peerDependencies:
       class-transformer: '*'
       class-validator: '*'
@@ -2571,13 +2571,13 @@ packages:
       uid: 2.0.2
     dev: false
 
-  /@nestjs/config@3.0.0(@nestjs/common@10.1.3)(reflect-metadata@0.1.13):
+  /@nestjs/config@3.0.0(@nestjs/common@10.2.0)(reflect-metadata@0.1.13):
     resolution: {integrity: sha512-fzASk1Uv6AjdE6uA1na8zpqRCXAhRpcfgpCVv3SAKlgJ3VR3bEjcI4G17WHLgLBsmPzI1ofdkSI451WLD1F1Rw==}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
       reflect-metadata: ^0.1.13
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       dotenv: 16.1.4
       dotenv-expand: 10.0.0
       lodash: 4.17.21
@@ -2585,8 +2585,8 @@ packages:
       uuid: 9.0.0
     dev: false
 
-  /@nestjs/core@10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-VzK54TuacC3Vmq3b5xTyMVTlDNJeKbjpKfV9fNqm4TbIBm8ZPo3FC0osJAbAK4XwbVvv2Flq1yA3CutasupVjw==}
+  /@nestjs/core@10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-K9QwdSXO8O8HHAgs23U+icLuNhkD4JmesE6LH2VIFgpsBOc7pUuUD+Ur4A0juNVeB+Us3etKdYIkw4SWgkBfXA==}
     requiresBuild: true
     peerDependencies:
       '@nestjs/common': ^10.0.0
@@ -2603,8 +2603,8 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/platform-express': 10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/platform-express': 10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
@@ -2617,17 +2617,17 @@ packages:
       - encoding
     dev: false
 
-  /@nestjs/jwt@10.1.0(@nestjs/common@10.1.3):
+  /@nestjs/jwt@10.1.0(@nestjs/common@10.2.0):
     resolution: {integrity: sha512-iLwCGS25ybUxGS7i5j/Mwuyzvp/WxJftHlm8aLEBv5GV92apz6L1QVjxLdZrqXbzo++C8gdJauhzil8qitY+6w==}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@types/jsonwebtoken': 9.0.2
       jsonwebtoken: 9.0.0
     dev: false
 
-  /@nestjs/mapped-types@2.0.2(@nestjs/common@10.1.3)(reflect-metadata@0.1.13):
+  /@nestjs/mapped-types@2.0.2(@nestjs/common@10.2.0)(reflect-metadata@0.1.13):
     resolution: {integrity: sha512-V0izw6tWs6fTp9+KiiPUbGHWALy563Frn8X6Bm87ANLRuE46iuBMD5acKBDP5lKL/75QFvrzSJT7HkCbB0jTpg==}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -2640,28 +2640,28 @@ packages:
       class-validator:
         optional: true
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       reflect-metadata: 0.1.13
     dev: false
 
-  /@nestjs/passport@10.0.0(@nestjs/common@10.1.3)(passport@0.6.0):
+  /@nestjs/passport@10.0.0(@nestjs/common@10.2.0)(passport@0.6.0):
     resolution: {integrity: sha512-IlKKc6M7JOe+4dBbW6gZsXBSD05ZYgwfGf3GJhgCmUGYVqffpDdALQSS6JftnExrE+12rACoEmHkzYwKAGVK0Q==}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
       passport: ^0.4.0 || ^0.5.0 || ^0.6.0
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       passport: 0.6.0
     dev: false
 
-  /@nestjs/platform-express@10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3):
-    resolution: {integrity: sha512-RSf7ooCrxiWJlWl3CLfpaYmAf3U0tRsN7pJakujWdvzVJU2EzVZTLcy1MtnSg/HBm9/Rvg98VI5QI6oOhOpt+A==}
+  /@nestjs/platform-express@10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0):
+    resolution: {integrity: sha512-WmRNGqDZIfKpCPQcTKABuIKmdyULpZN6jB7i2s5z96BiqfI1BaNORPGw1gpWvUdN+ssJ/aFhLsHTDY0p48nKMg==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       body-parser: 1.20.2
       cors: 2.8.5
       express: 4.18.2
@@ -2671,8 +2671,8 @@ packages:
       - supports-color
     dev: false
 
-  /@nestjs/platform-fastify@10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3):
-    resolution: {integrity: sha512-ZSiMPgqE2g9tNbWp/aAMKp9ZIbgLwtYaDzuQrQCzWWrabNsKZ1uQz6qvvrTrirC7pvnUjOEe5l1puHS/+SS7cg==}
+  /@nestjs/platform-fastify@10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0):
+    resolution: {integrity: sha512-RhG4Fu4a/1TyhiiboqCyWWErDMvYe0eo58+BScIuEwvLUfsbcgSB8C12NJQeYlc7pBesJx1xagJ/DTUsZZKVBw==}
     peerDependencies:
       '@fastify/static': ^6.0.0
       '@fastify/view': ^7.0.0 || ^8.0.0
@@ -2687,8 +2687,8 @@ packages:
       '@fastify/cors': 8.3.0
       '@fastify/formbody': 7.4.0
       '@fastify/middie': 8.3.0
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       fastify: 4.21.0
       light-my-request: 5.10.0
       path-to-regexp: 3.2.0
@@ -2727,7 +2727,7 @@ packages:
       - chokidar
     dev: false
 
-  /@nestjs/swagger@7.1.8(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13):
+  /@nestjs/swagger@7.1.8(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13):
     resolution: {integrity: sha512-Jpl3laGAqvyWccc3auLU0mMjl5hJ2kqzzDb63ynJi5NMbFlgBwrR8FCGBVstSsqL9YSJWLR4L1BZzVmVExcY+g==}
     peerDependencies:
       '@fastify/static': ^6.0.0
@@ -2744,9 +2744,9 @@ packages:
       class-validator:
         optional: true
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/mapped-types': 2.0.2(@nestjs/common@10.1.3)(reflect-metadata@0.1.13)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/mapped-types': 2.0.2(@nestjs/common@10.2.0)(reflect-metadata@0.1.13)
       js-yaml: 4.1.0
       lodash: 4.17.21
       path-to-regexp: 3.2.0
@@ -2754,7 +2754,7 @@ packages:
       swagger-ui-dist: 5.3.1
     dev: false
 
-  /@nestjs/terminus@10.0.1(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+  /@nestjs/terminus@10.0.1(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1):
     resolution: {integrity: sha512-orQmQFdwN4QC2Oo30BrxEKzKAVeVluWQElgIe16NGvm597VqRH4b1GbKldVg6H8adehd/nR6RdCUyFozRdl2rA==}
     peerDependencies:
       '@grpc/grpc-js': '*'
@@ -2802,16 +2802,16 @@ packages:
       typeorm:
         optional: true
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       boxen: 5.1.2
       check-disk-space: 3.4.0
       reflect-metadata: 0.1.13
       rxjs: 7.8.1
     dev: false
 
-  /@nestjs/testing@10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(@nestjs/platform-express@10.1.3):
-    resolution: {integrity: sha512-zMrO9xLPYnKtC6q1diWubuMshIp0v2aGHa58jcIfZaAlJlU/6RKsgCOiFQ42aFzxUEBRWF0LBF0aiwt04LKMyQ==}
+  /@nestjs/testing@10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(@nestjs/platform-express@10.2.0):
+    resolution: {integrity: sha512-jJjk76maTh2rFq7DR0E3KagI6dt9RIiym+ifjsswZml3lALoHSRAyQFhXdx1biLs0GhGTk+mw75intmsG50rjQ==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
@@ -2823,21 +2823,21 @@ packages:
       '@nestjs/platform-express':
         optional: true
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/platform-express': 10.1.3(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/platform-express': 10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)
       tslib: 2.6.1
     dev: false
 
-  /@nestjs/throttler@4.2.1(@nestjs/common@10.1.3)(@nestjs/core@10.1.3)(reflect-metadata@0.1.13):
+  /@nestjs/throttler@4.2.1(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)(reflect-metadata@0.1.13):
     resolution: {integrity: sha512-wVPMuIyr0KdrK1RVVQceWVNesogCm9IgYC1V5EkaTZ+usIE4qxEyzdwU5IqQLgOO/Loiq98MLwReDxazX7i9Uw==}
     peerDependencies:
       '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
       '@nestjs/core': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
       reflect-metadata: ^0.1.13
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.3(@nestjs/common@10.1.3)(@nestjs/platform-express@10.1.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.0(@nestjs/common@10.2.0)(@nestjs/platform-express@10.2.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       md5: 2.3.0
       reflect-metadata: 0.1.13
     dev: false
@@ -2859,7 +2859,7 @@ packages:
       micromatch: 4.0.5
       mkdirp: 3.0.1
       murmurhash: 2.0.1
-      node-fetch: 2.6.12
+      node-fetch: 2.6.13
       ufo: 1.2.0
       unstorage: 1.9.0
     transitivePeerDependencies:
@@ -2876,10 +2876,6 @@ packages:
       - encoding
       - idb-keyval
       - supports-color
-    dev: false
-
-  /@next/env@13.4.18:
-    resolution: {integrity: sha512-ZUG5Y/KSSerggdeD2LIYgiYziKTuSE9oE2RnW8bhNw6WunA8MrVfrWaCDTYSx/UG8qzPpSF+BiZNiHUiALxCdA==}
     dev: false
 
   /@next/env@13.4.19:
@@ -2978,8 +2974,8 @@ packages:
     engines: {node: '>= 16'}
     dev: false
 
-  /@node-saml/node-saml@4.0.4:
-    resolution: {integrity: sha512-oybUBWBYVsHGckQxzyzlpRM4E2iuW3I2Ok/J9SwlotdmjvmZxSo6Ub74D9wltG8C9daJZYI57uy+1UK4FtcGXA==}
+  /@node-saml/node-saml@4.0.5:
+    resolution: {integrity: sha512-J5DglElbY1tjOuaR1NPtjOXkXY5bpUhDoKVoeucYN98A3w4fwgjIOPqIGcb6cQsqFq2zZ6vTCeKn5C/hvefSaw==}
     engines: {node: '>= 14'}
     dependencies:
       '@types/debug': 4.1.8
@@ -3001,7 +2997,7 @@ packages:
     resolution: {integrity: sha512-xFw3gw0yo+K1mzlkW15NeBF7cVpRHN/4vpjmBKzov5YFImCWh/G0LcTZ8krH3yk2/eRPc3Or8LRPudVJBjmYaw==}
     engines: {node: '>= 14'}
     dependencies:
-      '@node-saml/node-saml': 4.0.4
+      '@node-saml/node-saml': 4.0.5
       '@types/express': 4.17.17
       '@types/passport': 1.0.12
       '@types/passport-strategy': 0.2.35
@@ -3036,7 +3032,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       consola: 2.15.3
-      node-fetch: 2.6.12
+      node-fetch: 2.6.13
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -3177,7 +3173,7 @@ packages:
       is-glob: 4.0.3
       open: 9.1.0
       picocolors: 1.0.0
-      tslib: 2.6.1
+      tslib: 2.6.2
 
   /@reduxjs/toolkit@1.9.5(react-redux@8.1.2)(react@18.2.0):
     resolution: {integrity: sha512-Rt97jHmfTeaxL4swLRNPD/zV4OxTes4la07Xc4hetpUW/vc75t5m1ANyxG6ymnEQ2FsLQsoMlYB2vV1sO3m8tQ==}
@@ -3216,7 +3212,7 @@ packages:
     resolution: {integrity: sha512-q4CH6dQ46vjIOV3yZEmMrl9f9Pn1KefGM46tV60Mti8EXzmMOfrAAUtTEE1ODijIzXYEvKdKWWUVvCG3ra52PQ==}
     dependencies:
       husky: 8.0.3
-      lint-staged: 14.0.0
+      lint-staged: 14.0.1
       prettier: 3.0.2
       prettier-plugin-packagejson: 2.4.5(prettier@3.0.2)
       prettier-plugin-tailwindcss: 0.4.1(prettier@3.0.2)
@@ -3395,7 +3391,7 @@ packages:
   /@swc/helpers@0.5.1:
     resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@szmarczak/http-timer@4.0.6:
@@ -3540,7 +3536,7 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/cacheable-request@6.0.3:
@@ -3548,14 +3544,14 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
       '@types/responselike': 1.0.0
     dev: false
 
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/debug@4.1.8:
@@ -3567,7 +3563,7 @@ packages:
   /@types/docker-modem@3.0.3:
     resolution: {integrity: sha512-i1A2Etnav7uHizZ87vUf4EqwJehY3JOcTfBS0pGBlO+HQ0jg2lUMCaJRg9VQM8ldZkpYdIfsenxcTOCpwxPXEg==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
       '@types/ssh2': 1.11.13
     dev: false
 
@@ -3575,7 +3571,7 @@ packages:
     resolution: {integrity: sha512-7CC5yIpQi+bHXwDK43b/deYXteP3Lem9gdocVVHJPSRJJLMfbiOchQV3rDmAPkMw+n3GIVj7m1six3JW+VcwwA==}
     dependencies:
       '@types/docker-modem': 3.0.3
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/eslint-scope@3.7.4:
@@ -3599,7 +3595,7 @@ packages:
   /@types/express-serve-static-core@4.17.35:
     resolution: {integrity: sha512-wALWQwrgiB2AWTT91CB62b6Yt0sNHpznUXeZEcnPU3DRdlDIz74x8Qg1UUYKSVFi+va5vKOLYRBI1bRKiLLKIg==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.1
@@ -3640,13 +3636,13 @@ packages:
   /@types/jsonwebtoken@9.0.2:
     resolution: {integrity: sha512-drE6uz7QBKq1fYqqoFKTDRdFCPHd5TCub75BM+D+cMx7NU9hUz7SESLfC2fSCXVFMO5Yj8sOWHuGqPgjc+fz0Q==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/lossless-json@1.0.1:
@@ -3669,12 +3665,12 @@ packages:
     resolution: {integrity: sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==}
     dev: false
 
-  /@types/node@18.17.5:
-    resolution: {integrity: sha512-xNbS75FxH6P4UXTPUJp/zNPq6/xsfdJKussCWNOnz4aULWIRwMgP1LgaB5RiBnMX1DPCYenuqGZfnIAx5mbFLA==}
+  /@types/node@18.17.6:
+    resolution: {integrity: sha512-fGmT/P7z7ecA6bv/ia5DlaWCH4YeZvAQMNpUhrJjtAhOhZfoxS1VLUgU2pdk63efSjQaOJWdXMuAJsws+8I6dg==}
     dev: false
 
-  /@types/node@20.5.0:
-    resolution: {integrity: sha512-Mgq7eCtoTjT89FqNoTzzXg2XvCi5VMhRV6+I2aYanc6kQCBImeNaAYRs/DyoVqk1YEUJK5gN9VO7HRIdz4Wo3Q==}
+  /@types/node@20.5.1:
+    resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
     dev: false
 
   /@types/nprogress@0.2.0:
@@ -3735,13 +3731,13 @@ packages:
   /@types/readdir-glob@1.1.1:
     resolution: {integrity: sha512-ImM6TmoF8bgOwvehGviEj3tRdRBbQujr1N+0ypaln/GWjaerOB26jb93vsRHmdMtvVQZQebOlqt2HROark87mQ==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/responselike@1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/scheduler@0.16.3:
@@ -3756,7 +3752,7 @@ packages:
     resolution: {integrity: sha512-Cwo8LE/0rnvX7kIIa3QHCkcuF21c05Ayb0ZfxPiv0W8VRiZiNW/WuRupHKpqqGVGf7SUA44QSOUKaEd9lIrd/Q==}
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/serve-static@1.15.2:
@@ -3764,39 +3760,39 @@ packages:
     dependencies:
       '@types/http-errors': 2.0.1
       '@types/mime': 3.0.1
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/ssh2-streams@0.1.9:
     resolution: {integrity: sha512-I2J9jKqfmvXLR5GomDiCoHrEJ58hAOmFrekfFqmCFd+A6gaEStvWnPykoWUwld1PNg4G5ag1LwdA+Lz1doRJqg==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/ssh2@0.5.52:
     resolution: {integrity: sha512-lbLLlXxdCZOSJMCInKH2+9V/77ET2J6NPQHpFI0kda61Dd1KglJs+fPQBchizmzYSOJBgdTajhPqBO1xxLywvg==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
       '@types/ssh2-streams': 0.1.9
     dev: false
 
   /@types/ssh2@1.11.13:
     resolution: {integrity: sha512-08WbG68HvQ2YVi74n2iSUnYHYpUdFc/s2IsI0BHBdJwaqYJpWlVv9elL0tYShTv60yr0ObdxJR5NrCRiGJ/0CQ==}
     dependencies:
-      '@types/node': 18.17.5
+      '@types/node': 18.17.6
     dev: false
 
   /@types/tar-fs@2.0.1:
     resolution: {integrity: sha512-qlsQyIY9sN7p221xHuXKNoMfUenOcvEBN4zI8dGsYbYCqHtTarXOEXSIgUnK+GcR0fZDse6pAIc5pIrCh9NefQ==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
       '@types/tar-stream': 2.2.2
     dev: false
 
   /@types/tar-stream@2.2.2:
     resolution: {integrity: sha512-1AX+Yt3icFuU6kxwmPakaiGrJUwG44MpuiqPg4dSolRFk6jmvs4b3IbUol9wKDLIgU76gevn3EwE8y/DkSJCZQ==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/use-sync-external-store@0.0.3:
@@ -3806,20 +3802,20 @@ packages:
   /@types/xml-crypto@1.4.2:
     resolution: {integrity: sha512-1kT+3gVkeBDg7Ih8NefxGYfCApwZViMIs5IEs5AXF6Fpsrnf9CLAEIRh0DYb1mIcRcvysVbe27cHsJD6rJi36w==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
       xpath: 0.0.27
     dev: false
 
   /@types/xml-encryption@1.2.1:
     resolution: {integrity: sha512-UeyZkfZFZSa9XCGU5uGgUmsSLwQESDJvF076bJGyDf2gkXJjKvK8fW/x4ckvEHB2M/5RHJEkMc5xI+JrdmCTKA==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@types/xml2js@0.4.11:
     resolution: {integrity: sha512-JdigeAKmCyoJUiQljjr7tQG3if9NkqGUgwEUqBvV0N7LM4HyQk7UXCnusRa1lnvXAEYJ8mw8GtZWioagNztOwA==}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
     dev: false
 
   /@typescript-eslint/eslint-plugin@6.4.0(@typescript-eslint/parser@6.4.0)(eslint@8.47.0)(typescript@4.9.5):
@@ -3845,7 +3841,7 @@ packages:
       ignore: 5.2.4
       natural-compare: 1.4.0
       semver: 7.5.4
-      ts-api-utils: 1.0.1(typescript@4.9.5)
+      ts-api-utils: 1.0.2(typescript@4.9.5)
       typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
@@ -3894,7 +3890,7 @@ packages:
       '@typescript-eslint/utils': 6.4.0(eslint@8.47.0)(typescript@4.9.5)
       debug: 4.3.4
       eslint: 8.47.0
-      ts-api-utils: 1.0.1(typescript@4.9.5)
+      ts-api-utils: 1.0.2(typescript@4.9.5)
       typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
@@ -3920,7 +3916,7 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.5.4
-      ts-api-utils: 1.0.1(typescript@4.9.5)
+      ts-api-utils: 1.0.2(typescript@4.9.5)
       typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
@@ -4442,7 +4438,7 @@ packages:
   /async-mutex@0.4.0:
     resolution: {integrity: sha512-eJFZ1YhRR8UN8eBLoNzcDPcy/jqjsg6I1AP+KvWQX80BqOSW1oJPJXDylPUEeMr2ZQvHgnQ//Lp6f3RQ1zI7HA==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /async@3.2.4:
@@ -4524,7 +4520,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.10
       '@babel/helper-define-polyfill-provider': 0.4.2(@babel/core@7.22.10)
-      core-js-compat: 3.32.0
+      core-js-compat: 3.32.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -4801,8 +4797,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001521
-      electron-to-chromium: 1.4.495
+      caniuse-lite: 1.0.30001522
+      electron-to-chromium: 1.4.496
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
     dev: false
@@ -4932,8 +4928,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /caniuse-lite@1.0.30001521:
-    resolution: {integrity: sha512-fnx1grfpEOvDGH+V17eccmNjucGUnCbP6KL+l5KqBIerp26WK/+RQ7CIDE37KGJjaPyqWXXlFUyKiWmvdNNKmQ==}
+  /caniuse-lite@1.0.30001522:
+    resolution: {integrity: sha512-TKiyTVZxJGhsTszLuzb+6vUZSjVOAhClszBr2Ta2k9IwtNBT/4dzmL6aywt0HCgEZlmwJzXJd8yNiob6HgwTRg==}
     dev: false
 
   /chalk@2.4.2:
@@ -5284,8 +5280,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /core-js-compat@3.32.0:
-    resolution: {integrity: sha512-7a9a3D1k4UCVKnLhrgALyFcP7YCsLOQIxPd0dKjf/6GuPcgyiGP70ewWdCGrSK7evyhymi0qO4EqCmSJofDeYw==}
+  /core-js-compat@3.32.1:
+    resolution: {integrity: sha512-GSvKDv4wE0bPnQtjklV101juQ85g6H3rm5PDP20mqlS5j0kXF3pP97YvAu5hl+uFHqMictp3b2VxOHljWMAtuA==}
     dependencies:
       browserslist: 4.21.10
     dev: false
@@ -5371,7 +5367,7 @@ packages:
   /cross-fetch@3.1.8:
     resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
     dependencies:
-      node-fetch: 2.6.12
+      node-fetch: 2.6.13
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -5544,8 +5540,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /defichain@3.34.0:
-    resolution: {integrity: sha512-E6lYqzUlEogT8JW6I/6j7CDCKj1zq/+0jw6QKWToiZA5jn7z0P6MItlMYXPtxyGnB1I6WDQaZYLwVdWH5Pz+Ig==}
+  /defichain@3.37.0:
+    resolution: {integrity: sha512-DuC/Hf2eS9NtFCEFxuZYLnDsuneRLbELESCTjkD6ay6NM5Efy3a9v0+TWCS35un/S8KxFmt03nYY2ifo4uLR6g==}
     engines: {node: '>=v16.17.0'}
     dev: false
 
@@ -5765,8 +5761,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: false
 
-  /electron-to-chromium@1.4.495:
-    resolution: {integrity: sha512-mwknuemBZnoOCths4GtpU/SDuVMp3uQHKa2UNJT9/aVD6WVRjGpXOxRGX7lm6ILIenTdGXPSTCTDaWos5tEU8Q==}
+  /electron-to-chromium@1.4.496:
+    resolution: {integrity: sha512-qeXC3Zbykq44RCrBa4kr8v/dWzYJA8rAwpyh9Qd+NKWoJfjG5vvJqy9XOJ9H4P/lqulZBCgUWAYi+FeK5AuJ8g==}
     dev: false
 
   /elliptic@6.5.4:
@@ -7929,13 +7925,13 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 20.5.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: false
 
-  /jiti@1.19.1:
-    resolution: {integrity: sha512-oVhqoRDaBXf7sjkll95LHVS6Myyyb1zaunVwk4Z0+WPSW4gjS0pl01zYKHScTuyEhQsFxV5L4DR5r+YqSyqyyg==}
+  /jiti@1.19.3:
+    resolution: {integrity: sha512-5eEbBDQT/jF1xg6l36P+mWGGoH9Spuy0PCdSr2dtWRDGC6ph/w9ZCL4lmESW8f8F7MwT3XKescfP0wnZWAKL9w==}
     hasBin: true
     dev: false
 
@@ -8121,8 +8117,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
-  /lint-staged@14.0.0:
-    resolution: {integrity: sha512-0tLf0pqZYkar/wu3nTctk4rVIG+d7PanDYv4/IQR4qwdqfQkTDziLRFnqMcLuLBTuUqmcLwsHPD2EjQ18d/oaA==}
+  /lint-staged@14.0.1:
+    resolution: {integrity: sha512-Mw0cL6HXnHN1ag0mN/Dg4g6sr8uf8sn98w2Oc1ECtFto9tvRF7nkXGJRbx8gPlHyoR0pLyBr2lQHbWwmUHe1Sw==}
     engines: {node: ^16.14.0 || >=18.0.0}
     hasBin: true
     dependencies:
@@ -8153,7 +8149,7 @@ packages:
       get-port-please: 3.0.1
       h3: 1.8.0
       http-shutdown: 1.2.2
-      jiti: 1.19.1
+      jiti: 1.19.3
       mlly: 1.4.0
       node-forge: 1.3.1
       pathe: 1.1.1
@@ -8633,15 +8629,15 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /nestjs-pino@3.3.0(@nestjs/common@10.1.3)(pino-http@8.4.0):
-    resolution: {integrity: sha512-FVMbzz0wi7YKqtrifnAjcQejGmhIfxXY2q+jdW1bK7RxN9640UJ7pDeQa/FOQMSu1Ud0L0/eqI3Ha9NejJxIjQ==}
+  /nestjs-pino@3.4.0(@nestjs/common@10.2.0)(pino-http@8.4.0):
+    resolution: {integrity: sha512-L79tk+WqVJApGxD4K40srSHopwlBX8WVPoIJtVhWaxJUfk9ND6eZp7kmgdgwQw8PpYUeoeOhS1g2j0Ep3c0NJA==}
     engines: {node: '>= 14'}
     requiresBuild: true
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
       pino-http: ^6.4.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@nestjs/common': 10.1.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       pino-http: 8.4.0
     dev: false
 
@@ -8653,7 +8649,7 @@ packages:
       next: '*'
     dependencies:
       '@corex/deepmerge': 4.0.43
-      '@next/env': 13.4.18
+      '@next/env': 13.4.19
       fast-glob: 3.3.1
       minimist: 1.2.8
       next: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -8681,7 +8677,7 @@ packages:
       '@next/env': 13.4.19
       '@swc/helpers': 0.5.1
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001521
+      caniuse-lite: 1.0.30001522
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8749,8 +8745,8 @@ packages:
     resolution: {integrity: sha512-5IAMBTl9p6PaAjYCnMv5FmqIF6GcZnawAVnzaCG0rX2aYZJ4CxEkZNtVPuTRug7fL7wyM5BQYTlAzcyMPi6oTQ==}
     dev: false
 
-  /node-fetch@2.6.12:
-    resolution: {integrity: sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==}
+  /node-fetch@2.6.13:
+    resolution: {integrity: sha512-StxNAxh15zr77QvvkmveSQ8uCQ4+v5FkvNTj0OESmiHu+VRi/gXArXtkWMElOsOUNLtUEvI4yS+rdtOHZTwlQA==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
@@ -9103,7 +9099,7 @@ packages:
     resolution: {integrity: sha512-1HHZGfvti7f/t+6J3y3fn2jH4LYjvgrBLR90CgMIqG7/VIBCOc5XPTz1RCT0RM+GnhcRn0TzBZB+rtSzD6G+Gw==}
     engines: {node: '>= 16'}
     dependencies:
-      '@node-saml/node-saml': 4.0.4
+      '@node-saml/node-saml': 4.0.5
       '@xmldom/xmldom': 0.8.10
       axios: 1.4.0(debug@4.3.4)
       debug: 4.3.4
@@ -10004,7 +10000,7 @@ packages:
   /rxjs@7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /safe-array-concat@1.0.0:
@@ -10653,7 +10649,7 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@pkgr/utils': 2.4.2
-      tslib: 2.6.1
+      tslib: 2.6.2
 
   /tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -10755,7 +10751,7 @@ packages:
       docker-compose: 0.24.2
       dockerode: 3.3.5
       get-port: 5.1.1
-      node-fetch: 2.6.12
+      node-fetch: 2.6.13
       proper-lockfile: 4.1.2
       properties-reader: 2.2.0
       ssh-remote-port-forward: 1.0.4
@@ -10870,8 +10866,8 @@ packages:
       escape-string-regexp: 5.0.0
     dev: false
 
-  /ts-api-utils@1.0.1(typescript@4.9.5):
-    resolution: {integrity: sha512-lC/RGlPmwdrIBFTX59wwNzqh7aR2otPNPR/5brHZm/XKFYKsfqxihXUe9pU3JI+3vGkl+vyCoNNnPhJn3aLK1A==}
+  /ts-api-utils@1.0.2(typescript@4.9.5):
+    resolution: {integrity: sha512-Cbu4nIqnEdd+THNEsBdkolnOXhg0I8XteoHaEKgvsxpsbWda4IsUut2c187HxywQCvveojow0Dgw/amxtSKVkQ==}
     engines: {node: '>=16.13.0'}
     peerDependencies:
       typescript: '>=4.2.0'
@@ -10915,6 +10911,10 @@ packages:
 
   /tslib@2.6.1:
     resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+    dev: false
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
   /tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
