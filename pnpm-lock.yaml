@@ -348,8 +348,8 @@ importers:
   packages/standard-web:
     dependencies:
       '@netlify/ipx':
-        specifier: ^1.4.3
-        version: 1.4.3
+        specifier: ^1.4.4
+        version: 1.4.4
       '@reduxjs/toolkit':
         specifier: ^1.9.5
         version: 1.9.5(react-redux@8.1.2)(react@18.2.0)
@@ -2842,17 +2842,18 @@ packages:
       reflect-metadata: 0.1.13
     dev: false
 
-  /@netlify/functions@1.6.0:
-    resolution: {integrity: sha512-6G92AlcpFrQG72XU8YH8pg94eDnq7+Q0YJhb8x4qNpdGsvuzvrfHWBmqFGp/Yshmv4wex9lpsTRZOocdrA2erQ==}
+  /@netlify/functions@2.0.1:
+    resolution: {integrity: sha512-YrgCmz078II0LKknXKj5NbtGBuzek1JC+ZYi4xHcLhZD+HIGlerlmkhnVydWVPoA7fdd2IeSUd9CFFL7bY+y5Q==}
     engines: {node: '>=14.0.0'}
     dependencies:
+      '@netlify/serverless-functions-api': 1.7.1
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/ipx@1.4.3:
-    resolution: {integrity: sha512-h12ZyvPk02Jq2MdnXAtc1mywVPG7naaV03KrMYNrEYdJykwZ3x873uFTU9kvj4amf/Qu9p6M+fl5NcQC6YFndg==}
+  /@netlify/ipx@1.4.4:
+    resolution: {integrity: sha512-UM2pFatBDg9ehrUwA/PwpAo/PpF447uXFgKR/2QtqlPriwJlNXJ7sj/YPEblC/8UzNJjhSIv2gA6T9bcVqxe7Q==}
     dependencies:
-      '@netlify/functions': 1.6.0
+      '@netlify/functions': 2.0.1
       etag: 1.8.1
       fs-extra: 11.1.1
       ipx: 1.2.0
@@ -2876,6 +2877,19 @@ packages:
       - encoding
       - idb-keyval
       - supports-color
+    dev: false
+
+  /@netlify/node-cookies@0.1.0:
+    resolution: {integrity: sha512-OAs1xG+FfLX0LoRASpqzVntVV/RpYkgpI0VrUnw2u0Q1qiZUzcPffxRK8HF3gc4GjuhG5ahOEMJ9bswBiZPq0g==}
+    engines: {node: ^14.16.0 || >=16.0.0}
+    dev: false
+
+  /@netlify/serverless-functions-api@1.7.1:
+    resolution: {integrity: sha512-vF9g62n+BFfBXtWtmVBJ5debyMERVDtuLlMlKDPYBp6QjEuJnaggxczLlRofZ2mtsBXs7mAlna6gIcBswFLJJQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@netlify/node-cookies': 0.1.0
+      urlpattern-polyfill: 8.0.2
     dev: false
 
   /@next/env@13.4.19:
@@ -11275,6 +11289,10 @@ packages:
 
   /url-search-params-polyfill@8.1.1:
     resolution: {integrity: sha512-KmkCs6SjE6t4ihrfW9JelAPQIIIFbJweaaSLTh/4AO+c58JlDcb+GbdPt8yr5lRcFg4rPswRFRRhBGpWwh0K/Q==}
+    dev: false
+
+  /urlpattern-polyfill@8.0.2:
+    resolution: {integrity: sha512-Qp95D4TPJl1kC9SKigDcqgyM2VDVO4RiJc2d4qe5GrYm+zbIQCWWKAFaJNQ4BhdFeDGwBmAxqJBwWSJDb9T3BQ==}
     dev: false
 
   /use-sync-external-store@1.2.0(react@18.2.0):
