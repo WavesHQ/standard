@@ -33,8 +33,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(@nestjs/common@10.2.1)(@nestjs/core@10.2.1)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/cli':
-        specifier: ^10.1.12
-        version: 10.1.12(@swc/cli@0.1.62)(@swc/core@1.3.78)
+        specifier: ^10.1.13
+        version: 10.1.13(@swc/cli@0.1.62)(@swc/core@1.3.78)
       '@nestjs/common':
         specifier: ^10.2.1
         version: 10.2.1(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -126,8 +126,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(@nestjs/common@10.2.1)(@nestjs/core@10.2.1)(cache-manager@5.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/cli':
-        specifier: ^10.1.12
-        version: 10.1.12(@swc/cli@0.1.62)(@swc/core@1.3.78)
+        specifier: ^10.1.13
+        version: 10.1.13(@swc/cli@0.1.62)(@swc/core@1.3.78)
       '@nestjs/common':
         specifier: ^10.2.1
         version: 10.2.1(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -2508,8 +2508,8 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@nestjs/cli@10.1.12(@swc/cli@0.1.62)(@swc/core@1.3.78):
-    resolution: {integrity: sha512-L+KZOGBvSQUJACC4/o83FRLn5h3MOD5TrGi+Y2NjiDiZr0WYG5b0FaSaCSCy9WQTk46lMaiQYbvi0d4keHJnrw==}
+  /@nestjs/cli@10.1.13(@swc/cli@0.1.62)(@swc/core@1.3.78):
+    resolution: {integrity: sha512-ZRJEIPWq7sLd//RIJc8a0mfAWgPrWtcn6OupavQ/PVkRqmEK3LCiitNPYiePeOlMjgarU62Zh9Q8BXWHZwMbMw==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
