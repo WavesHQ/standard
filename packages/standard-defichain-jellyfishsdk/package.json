@@ -3,19 +3,19 @@
   "version": "0.0.0",
   "files": [],
   "dependencies": {
-    "@defichain/jellyfish-address": "4.0.0-beta.10",
-    "@defichain/jellyfish-api-core": "4.0.0-beta.10",
-    "@defichain/jellyfish-network": "4.0.0-beta.10",
-    "@defichain/jellyfish-testing": "4.0.0-beta.10",
-    "@defichain/jellyfish-transaction": "4.0.0-beta.10",
-    "@defichain/jellyfish-transaction-builder": "4.0.0-beta.10",
-    "@defichain/jellyfish-wallet": "4.0.0-beta.10",
-    "@defichain/jellyfish-wallet-encrypted": "4.0.0-beta.10",
-    "@defichain/jellyfish-wallet-mnemonic": "4.0.0-beta.10",
-    "@defichain/playground-api-client": "4.0.0-beta.10",
-    "@defichain/testcontainers": "4.0.0-beta.10",
-    "@defichain/whale-api-client": "4.0.0-beta.10",
-    "@defichain/whale-api-wallet": "4.0.0-beta.10",
-    "defichain": "4.0.0-beta.10"
+    "@defichain/jellyfish-address": "4.0.0-beta10.1",
+    "@defichain/jellyfish-api-core": "4.0.0-beta10.1",
+    "@defichain/jellyfish-network": "4.0.0-beta10.1",
+    "@defichain/jellyfish-testing": "4.0.0-beta10.1",
+    "@defichain/jellyfish-transaction": "4.0.0-beta10.1",
+    "@defichain/jellyfish-transaction-builder": "4.0.0-beta10.1",
+    "@defichain/jellyfish-wallet": "4.0.0-beta10.1",
+    "@defichain/jellyfish-wallet-encrypted": "4.0.0-beta10.1",
+    "@defichain/jellyfish-wallet-mnemonic": "4.0.0-beta10.1",
+    "@defichain/playground-api-client": "4.0.0-beta10.1",
+    "@defichain/testcontainers": "4.0.0-beta10.1",
+    "@defichain/whale-api-client": "4.0.0-beta10.1",
+    "@defichain/whale-api-wallet": "4.0.0-beta10.1",
+    "defichain": "4.0.0-beta10.1"
   }
 }
