@@ -65,6 +65,10 @@
     {
       "matchPackagePatterns": ["^@waveshq/walletkit-"],
       "groupName": "@waveshq/walletkit"
+    },
+    {
+      "matchPackagePatterns": ["^@astro", "^astro"],
+      "groupName": "@astrojs"
     }
   ]
 }
