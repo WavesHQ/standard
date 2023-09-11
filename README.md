@@ -45,6 +45,12 @@ with the same version tag.
 | @waveshq/standard-api-fastify | Boilerplate | Boilerplate for easier scaffolding of API projects. (Nest.js + Fastify + TypeScript) |
 | @waveshq/standard-api-express | Boilerplate | Boilerplate for easier scaffolding of API projects. (Nest.js + Express + TypeScript) |
 
+### TypeScript
+
+| Package                      | Type    | Description                    |
+| ---------------------------- | ------- | ------------------------------ |
+| @waveshq/standard-typescript | Library | Standard TypeScript versioning |
+
 ### Renovate
 
 Renovate configuration files are provided on this package. Select depending on which platform you need.

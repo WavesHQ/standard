@@ -1,0 +1,13 @@
+{
+  "name": "@waveshq/standard-typescript",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git+https://github.com/waveshq/standard"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}
