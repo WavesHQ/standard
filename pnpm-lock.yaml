@@ -363,8 +363,8 @@ importers:
         specifier: ^1.9.5
         version: 1.9.5(react-redux@8.1.2)(react@18.2.0)
       '@tanstack/react-query':
-        specifier: ^5.0.0-beta.23
-        version: 5.0.0-beta.23(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^5.0.0-beta.25
+        version: 5.0.0-beta.25(react-dom@18.2.0)(react@18.2.0)
       '@types/react':
         specifier: 18.2.21
         version: 18.2.21
@@ -3476,8 +3476,8 @@ packages:
     resolution: {integrity: sha512-Qp+U4EltOl7y8VZIhxy4eZR5xFnXll28Urp28e6ag10D69yYKRApS2O+ufcVCxOcm1GFv4rpp19gYrpoqHeWgA==}
     dev: false
 
-  /@tanstack/react-query@5.0.0-beta.23(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-iaqcgUEf1aSVy60wxMt/p9joWyQYKa9eXn0TMdNmPUpH/SwiDeomiHFgvp1sP4vq+s32/BnygeNzbYFqG9ppJg==}
+  /@tanstack/react-query@5.0.0-beta.25(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xyO1VeiOqv7kIfyY8NH76L4qIWN6qq+oOrZY1XE1dt4Jcc3paKiJDK2V7hf3iWuO1qnBz10E4mqV3jnepj+x0g==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
