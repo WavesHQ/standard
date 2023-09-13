@@ -270,7 +270,7 @@ importers:
   packages/standard-desktop-linter:
     dependencies:
       eslint:
-        specifier: ^8.48.0
+        specifier: ^8.49.0
         version: 8.49.0
       eslint-config-airbnb:
         specifier: ^19.0.4
@@ -318,7 +318,7 @@ importers:
   packages/standard-prettier:
     dependencies:
       eslint:
-        specifier: ^8.48.0
+        specifier: ^8.49.0
         version: 8.49.0
       eslint-config-airbnb:
         specifier: ^19.0.4
@@ -405,7 +405,7 @@ importers:
   packages/standard-web-linter:
     dependencies:
       eslint:
-        specifier: ^8.48.0
+        specifier: ^8.49.0
         version: 8.49.0
       eslint-config-airbnb:
         specifier: ^19.0.4
