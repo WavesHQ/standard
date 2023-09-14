@@ -29,22 +29,23 @@ jobs:
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
 
-      - run: corepack enable pnpm
+      - name: Install bun
+        uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e6f436ddf341d7
 
       - uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
         with:
           node-version-file: ".nvmrc"
-          cache: pnpm
+          cache: bun
 
-      - run: pnpm install --frozen-lockfile
+      - run: bun install --frozen-lockfile
 
-      - run: pnpm -r exec npm version ${{ needs.version.outputs.result }} --git-tag-version=false
+      - run: bun -r exec npm version ${{ needs.version.outputs.result }} --git-tag-version=false
 
-      - run: pnpm build
+      - run: bun build
 
       - run: npm config set "//registry.npmjs.org/:_authToken" "\${NPM_AUTH_TOKEN}" --location=project
 
-      - run: pnpm -r publish --access public --tag latest --no-git-checks
+      - run: bun -r publish --access public --tag latest --no-git-checks
         env:
           NPM_AUTH_TOKEN: ${{ secrets.WAVESHQ_NPM_TOKEN }}
 
