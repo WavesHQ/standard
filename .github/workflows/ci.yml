@@ -16,31 +16,33 @@ jobs:
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
 
-      - run: corepack enable pnpm
+      - name: Install bun
+        uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e6f436ddf341d7
 
       - uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
         with:
           node-version-file: ".nvmrc"
-          cache: pnpm
+          cache: bun
 
-      - run: pnpm install --frozen-lockfile
+      - run: bun install --frozen-lockfile
 
-      - run: pnpm build
+      - run: bun build
 
   Test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
 
-      - run: corepack enable pnpm
+      - name: Install bun
+        uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e6f436ddf341d7
 
       - uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
         with:
           node-version-file: ".nvmrc"
-          cache: pnpm
+          cache: bun
 
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm test -- -- --maxWorkers=100% --coverage
+      - run: bun install --frozen-lockfile
+      - run: bun test -- -- --maxWorkers=100% --coverage
 
   # TODO(thedoublejay): add when there are test cases
   #      - uses: codecov/codecov-action@d9f34f8cd5cb3b3eb79b3e4b5dae3a16df499a70 # tag=v3.1.1
@@ -53,16 +55,17 @@ jobs:
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
 
-      - run: corepack enable pnpm
+      - name: Install bun
+        uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e6f436ddf341d7
 
       - uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
         with:
           node-version-file: ".nvmrc"
-          cache: pnpm
+          cache: bun
 
-      - run: pnpm install --frozen-lockfile
+      - run: bun install --frozen-lockfile
 
-      - run: pnpm prettier --check .
+      - run: bun prettier --check .
 
   lint_eslint:
     name: Lint (eslint)
@@ -70,13 +73,14 @@ jobs:
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
 
-      - run: corepack enable pnpm
+      - name: Install bun
+        uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e6f436ddf341d7
 
       - uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
         with:
           node-version-file: ".nvmrc"
-          cache: pnpm
+          cache: bun
 
-      - run: pnpm install --frozen-lockfile
+      - run: bun install --frozen-lockfile
 
-      - run: pnpm turbo run lint
+      - run: bun turbo run lint
