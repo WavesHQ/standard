@@ -7,7 +7,7 @@
   "dependencies": {
     "@compodoc/compodoc": "^1.1.21",
     "@fastify/compress": "^6.4.0",
-    "@fastify/helmet": "^11.1.0",
+    "@fastify/helmet": "^11.1.1",
     "@nestjs/cache-manager": "^2.1.0",
     "@nestjs/cli": "^10.1.17",
     "@nestjs/common": "^10.2.5",
