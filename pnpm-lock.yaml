@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@stickyjs/prettier':
-        specifier: ^1.3.3
-        version: 1.3.3
+        specifier: ^1.3.4
+        version: 1.3.4
       '@stickyjs/turbo':
-        specifier: ^1.3.3
-        version: 1.3.3(turbo@1.10.13)(typanion@3.14.0)
+        specifier: ^1.3.4
+        version: 1.3.4(turbo@1.10.13)(typanion@3.14.0)
       '@waveshq/standard-prettier':
         specifier: workspace:*
         version: link:packages/standard-prettier
@@ -75,8 +75,8 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4
       '@stickyjs/typescript':
-        specifier: ^1.3.3
-        version: 1.3.3(typescript@5.2.2)
+        specifier: ^1.3.4
+        version: 1.3.4(typescript@5.2.2)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.62(@swc/core@1.3.85)
@@ -162,8 +162,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(@nestjs/common@10.2.5)(@nestjs/core@10.2.5)(reflect-metadata@0.1.13)
       '@stickyjs/typescript':
-        specifier: ^1.3.3
-        version: 1.3.3(typescript@5.2.2)
+        specifier: ^1.3.4
+        version: 1.3.4(typescript@5.2.2)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.62(@swc/core@1.3.85)
@@ -3288,8 +3288,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@stickyjs/prettier@1.3.3:
-    resolution: {integrity: sha512-yxvUB58Pt59uH0b3PJaEqQgW1aRX8PxevdIcXbyOPQ+n5MTk/PIjddgADORPSMudob73e6q9EbngprClY1OP5g==}
+  /@stickyjs/prettier@1.3.4:
+    resolution: {integrity: sha512-AT70mu1r6dOxz8BBLcGj6VT8GTOVouIxfwneP+3EmS95pPSeyWmn0n/0Rg65mx36LJM82tx6LeYi53U7a2k/ig==}
     dependencies:
       husky: 8.0.3
       lint-staged: 14.0.1
@@ -3316,8 +3316,8 @@ packages:
       - supports-color
     dev: true
 
-  /@stickyjs/turbo@1.3.3(turbo@1.10.13)(typanion@3.14.0):
-    resolution: {integrity: sha512-odCDvjPAhXyWV5rmYYstYpd8cCHbl/+Tps7VGZeIxBHwsyIFIL6uqubSi1fnkpOUVvlQRsYVivjWF49ztsTsiw==}
+  /@stickyjs/turbo@1.3.4(turbo@1.10.13)(typanion@3.14.0):
+    resolution: {integrity: sha512-9S9emyhcr8vMQp8BxMgj6no5i2A0i9SNRIxQ+0VP5jLsojNYf49iLykKvs/cfbIrNA6ye6AfUTZBNt7Iwq8VaA==}
     hasBin: true
     peerDependencies:
       turbo: '*'
@@ -3328,8 +3328,8 @@ packages:
       - typanion
     dev: true
 
-  /@stickyjs/typescript@1.3.3(typescript@5.2.2):
-    resolution: {integrity: sha512-DBqT+D1qYKJ7fHozmOAW7gq191RJXh29fQbmErybWZyjxodL/cO6bsBwKS/Tw8UqxvBjpGjKqlaK8CjuRGeUsA==}
+  /@stickyjs/typescript@1.3.4(typescript@5.2.2):
+    resolution: {integrity: sha512-3NJQ80g12ovYG9a9Iq1YKIxDoX90Ggh/jMBKXh7cojzVcaL9KUmhHrpz+KnP0UjJoVETMe5dtw2jbSjnV9kobg==}
     peerDependencies:
       typescript: '*'
     dependencies:
