@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Default",
-  "extends": "@stickyjs/typescript",
+  "extends": "@waveshq/standard-typescript",
   "compilerOptions": {
     "lib": ["ES2022"],
     "module": "CommonJS",
