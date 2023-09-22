@@ -20,6 +20,7 @@
     "@stickyjs/prettier": "^1.3.4",
     "@stickyjs/turbo": "^1.3.4",
     "@waveshq/standard-prettier": "workspace:*",
+    "semver": "^7.5.4",
     "typescript": "5.2.2"
   },
   "engines": {
