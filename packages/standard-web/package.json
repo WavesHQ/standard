@@ -7,7 +7,7 @@
   "dependencies": {
     "@netlify/ipx": "^1.4.4",
     "@reduxjs/toolkit": "^1.9.6",
-    "@tanstack/react-query": "^5.0.0-beta.35",
+    "@tanstack/react-query": "^5.0.0-rc.1",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "follow-redirects": "^1.15.3",
