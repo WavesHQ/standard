@@ -5,8 +5,8 @@
     "tsconfig.json"
   ],
   "dependencies": {
-    "@tauri-apps/api": "^1.4.0",
-    "@tauri-apps/cli": "^1.4.0",
+    "@tauri-apps/api": "^1.5.0",
+    "@tauri-apps/cli": "^1.5.0",
     "@types/react": "^18.2.23",
     "@types/react-dom": "18.2.7",
     "@vitejs/plugin-react": "^4.1.0",
