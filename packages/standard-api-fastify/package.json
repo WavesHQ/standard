@@ -27,6 +27,6 @@
     "cache-manager": "^5.2.3",
     "helmet": "^7.0.0",
     "nestjs-pino": "^3.5.0",
-    "pino-pretty": "^10.2.0"
+    "pino-pretty": "^10.2.3"
   }
 }
