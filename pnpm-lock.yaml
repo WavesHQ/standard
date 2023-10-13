@@ -111,8 +111,8 @@ importers:
         specifier: ^4.0.1
         version: 4.0.1
       passport-saml-metadata:
-        specifier: ^3.1.2
-        version: 3.1.2
+        specifier: ^3.2.0
+        version: 3.2.0
       pino-pretty:
         specifier: ^10.2.3
         version: 10.2.3
@@ -9308,8 +9308,8 @@ packages:
       passport-strategy: 1.0.0
     dev: false
 
-  /passport-saml-metadata@3.1.2:
-    resolution: {integrity: sha512-1HHZGfvti7f/t+6J3y3fn2jH4LYjvgrBLR90CgMIqG7/VIBCOc5XPTz1RCT0RM+GnhcRn0TzBZB+rtSzD6G+Gw==}
+  /passport-saml-metadata@3.2.0:
+    resolution: {integrity: sha512-9LZVuaxTh4SKHbZY6tllA0tE6Oo1/LuaNOA9i5Si5spMsL2g/3A4WE+Tttda39C81TU5xpAvwtBDDulb233ERw==}
     engines: {node: '>= 16'}
     dependencies:
       '@node-saml/node-saml': 4.0.5
@@ -9317,7 +9317,7 @@ packages:
       axios: 1.5.0(debug@4.3.4)
       debug: 4.3.4
       lodash: 4.17.21
-      xpath: 0.0.32
+      xpath: 0.0.33
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -11837,6 +11837,11 @@ packages:
 
   /xpath@0.0.32:
     resolution: {integrity: sha512-rxMJhSIoiO8vXcWvSifKqhvV96GjiD5wYb8/QHdoRyQvraTpp4IEv944nhGausZZ3u7dhQXteZuZbaqfpB7uYw==}
+    engines: {node: '>=0.6.0'}
+    dev: false
+
+  /xpath@0.0.33:
+    resolution: {integrity: sha512-NNXnzrkDrAzalLhIUc01jO2mOzXGXh1JwPgkihcLLzw98c0WgYDmmjSh1Kl3wzaxSVWMuA+fe0WTWOBDWCBmNA==}
     engines: {node: '>=0.6.0'}
     dev: false
 
