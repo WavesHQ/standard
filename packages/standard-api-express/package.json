@@ -17,7 +17,7 @@
     "@nestjs/passport": "^10.0.2",
     "@nestjs/platform-express": "^10.2.7",
     "@nestjs/schematics": "^10.0.2",
-    "@nestjs/swagger": "^7.1.13",
+    "@nestjs/swagger": "^7.1.14",
     "@nestjs/terminus": "^10.1.1",
     "@nestjs/testing": "^10.2.7",
     "@nestjs/throttler": "^5.0.0",
