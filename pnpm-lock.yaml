@@ -87,8 +87,8 @@ importers:
         specifier: ^4.17.20
         version: 4.17.20
       '@types/passport-jwt':
-        specifier: ^3.0.12
-        version: 3.0.12
+        specifier: ^3.0.13
+        version: 3.0.13
       '@waveshq/standard-typescript':
         specifier: workspace:*
         version: link:../standard-typescript
@@ -3824,8 +3824,8 @@ packages:
     resolution: {integrity: sha512-2wLrSJXLztGmr7wXwM0hA/wuIOY9DznVdd+ZFofHOiXcj9JnVt+2ZeLRJ7v5ZVlmheSkUOSg3Q3O4Ce7yji79A==}
     dev: false
 
-  /@types/passport-jwt@3.0.12:
-    resolution: {integrity: sha512-nXCd1lu20rw//nZ5AnK1FnlVZdSC4R5xksquev9oAJlXwJw0irMdZ7dRAE4KDlalptKObiaoam6BQ8lpujeZog==}
+  /@types/passport-jwt@3.0.13:
+    resolution: {integrity: sha512-fjHaC6Bv8EpMMqzTnHP32SXlZGaNfBPC/Po5dmRGYi2Ky7ljXPbGnOy+SxZqa6iZvFgVhoJ1915Re3m93zmcfA==}
     dependencies:
       '@types/express': 4.17.20
       '@types/jsonwebtoken': 9.0.4
