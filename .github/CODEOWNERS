@@ -1,8 +1,8 @@
 # Define individuals that are responsible for code in a repository.
 # More details are here: https://help.github.com/articles/about-codeowners/
 
-.github                             @chloezxyy @fullstackninja864 @lykalabrada @pierregee
-packages                            @chloezxyy @fullstackninja864 @lykalabrada @pierregee
-package.json                        @chloezxyy @fullstackninja864 @lykalabrada @pierregee
-turbo.json                          @chloezxyy @fullstackninja864 @lykalabrada @pierregee
-README.md                           @chloezxyy @fullstackninja864 @lykalabrada @pierregee
+.github                             @fullstackninja864 @pierregee @chloezxyy @nattadex
+packages                            @fullstackninja864 @pierregee @chloezxyy @nattadex
+package.json                        @fullstackninja864 @pierregee @chloezxyy @nattadex
+turbo.json                          @fullstackninja864 @pierregee @chloezxyy @nattadex
+README.md                           @fullstackninja864 @pierregee @chloezxyy @nattadex
